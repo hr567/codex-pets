@@ -1,0 +1,132 @@
+@import '@astryxdesign/core/reset.css';
+@import '@astryxdesign/core/astryx.css';
+@import '@astryxdesign/theme-neutral/theme.css';
+
+[data-astryx-theme='neutral'] {
+  --color-background-body: light-dark(#f8f4ed, #111112);
+  --color-background-surface: light-dark(#ffffff, #1f1f22);
+  --color-background-card: light-dark(#ffffff, #1f1f22);
+  --color-background-popover: light-dark(#ffffff, #28292c);
+  --color-background-muted: light-dark(#f3efe8, #18181a);
+  --color-accent: light-dark(#7b4eb3, #a975e1);
+  --color-accent-muted: light-dark(#7b4eb31f, #a975e124);
+  --color-on-accent: light-dark(#ffffff, #171411);
+  --color-text-primary: light-dark(#171411, #f0edf4);
+  --color-text-secondary: light-dark(#4e606f, #afa9b5);
+  --color-text-accent: light-dark(#6e3ea0, #c18cf2);
+  --color-icon-primary: light-dark(#171411, #f0edf4);
+  --color-icon-secondary: light-dark(#4e606f, #afa9b5);
+  --color-icon-accent: light-dark(#6e3ea0, #c18cf2);
+  --color-border: light-dark(#ded8e1, #353139);
+  --color-border-emphasized: light-dark(#c9c0ce, #4a4550);
+  --color-shadow: light-dark(#2015281a, #00000073);
+  --radius-element: 12px;
+  --radius-container: 16px;
+  --radius-page: 24px;
+  --duration-fast: 175ms;
+  --duration-medium: 410ms;
+  --duration-slow: 975ms;
+  --shadow-low: 0 1px 2px light-dark(rgba(24, 17, 29, 0.04), rgba(0, 0, 0, 0.28)),
+    0 10px 30px light-dark(rgba(52, 37, 62, 0.06), rgba(0, 0, 0, 0.22));
+  --shadow-inset-selected: inset 0 0 0 2px
+    light-dark(rgba(123, 78, 179, 0.32), rgba(169, 117, 225, 0.4));
+}
+
+[data-theme='light'],
+[data-theme='system'] {
+  --pet-preview-stage-surface: #fbfafc;
+  --pet-preview-stage-frame: #ffffff;
+  --pet-preview-checker-a: #fffefe;
+  --pet-preview-checker-b: #eee9f0;
+  --pet-preview-stage-motif: #d7d1da;
+  --pet-preview-cobalt: #0a66ff;
+  --pet-preview-cobalt-hover: #0058e6;
+  --pet-preview-cobalt-pressed: #004bc4;
+  --pet-preview-focus: #0a66ff;
+  --pet-preview-pet-shadow: drop-shadow(0 14px 22px rgba(27, 17, 34, 0.12));
+}
+
+[data-theme='dark'] {
+  --pet-preview-stage-surface: #18171b;
+  --pet-preview-stage-frame: #171719;
+  --pet-preview-checker-a: #262329;
+  --pet-preview-checker-b: #1d1b20;
+  --pet-preview-stage-motif: #56515b;
+  --pet-preview-cobalt: #2f6df6;
+  --pet-preview-cobalt-hover: #5b82ff;
+  --pet-preview-cobalt-pressed: #7d9aff;
+  --pet-preview-focus: #78beff;
+  --pet-preview-pet-shadow: drop-shadow(0 18px 28px rgba(0, 0, 0, 0.42));
+}
+
+@media (prefers-color-scheme: dark) {
+  [data-theme='system'] {
+    --pet-preview-stage-surface: #18171b;
+    --pet-preview-stage-frame: #171719;
+    --pet-preview-checker-a: #262329;
+    --pet-preview-checker-b: #1d1b20;
+    --pet-preview-stage-motif: #56515b;
+    --pet-preview-cobalt: #2f6df6;
+    --pet-preview-cobalt-hover: #5b82ff;
+    --pet-preview-cobalt-pressed: #7d9aff;
+    --pet-preview-focus: #78beff;
+    --pet-preview-pet-shadow: drop-shadow(0 18px 28px rgba(0, 0, 0, 0.42));
+  }
+}
+
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: light-dark(#f8f4ed, #111112);
+}
+
+@media (max-width: 760px) {
+  [data-app-header] {
+    gap: 14px;
+    padding-inline: 16px;
+  }
+
+  [data-app-header-descriptor],
+  [data-app-header-status] {
+    display: none;
+  }
+
+  [data-app-header-actions] {
+    gap: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  [data-app-header-wordmark] {
+    display: none;
+  }
+}
+
+::selection {
+  color: light-dark(#171411, #f0edf4);
+  background: light-dark(#e3d3f1, #5c397a);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

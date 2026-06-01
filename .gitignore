@@ -1,0 +1,12 @@
+.DS_Store
+Thumbs.db
+node_modules/
+dist/
+.playwright-cli/
+output/
+reference/
+server.log
+server.err
+qa/deps/
+qa/pillow_site/
+qa/regenerate/
