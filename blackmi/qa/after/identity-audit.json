@@ -1,0 +1,30 @@
+{
+  "ok": true,
+  "canonical": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\blackmi\\spritesheet.webp",
+  "candidate": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\blackmi\\spritesheet.webp",
+  "structuralAudit": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\blackmi\\qa\\after\\identity-structural-audit.json",
+  "standardRows": {
+    "verdict": "pass",
+    "reason": "All rows 0-8 used animation cells preserve exact alpha geometry, silhouettes, registration, used/unused occupancy, frame order, and state semantics. The single approved final despill changes only edge-local RGB while preserving alpha."
+  },
+  "neutralCell": {
+    "verdict": "pass_with_note",
+    "reason": "Approved assembler neutral paste strengthens 2468 translucent alpha values in special row0c6, but visible support and bbox remain exactly 27,5,165,203 and normal-size appearance is unchanged. This cell is not one of the six idle animation frames."
+  },
+  "lookRows": {
+    "verdict": "pass",
+    "preservedFeatures": [
+      "adult chubby tuxedo-cat identity",
+      "round black face and green eyes",
+      "irregular white nose and muzzle blaze",
+      "broad white chest with narrow belly extension",
+      "solid black back and compact legs",
+      "white paws",
+      "short connected hook-curved tail",
+      "photorealistic fur texture and calm expression"
+    ],
+    "reason": "Rows 9-10 form one matched-scale seated look family. Head/eye direction changes while the planted lower body, adult proportions, baseline, palette, markings, and tail construction remain stable."
+  },
+  "identityDrift": false,
+  "majorFailures": []
+}

@@ -1,0 +1,40 @@
+{
+  "ok": true,
+  "before": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\blackmi\\spritesheet.webp",
+  "after": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\blackmi\\spritesheet.webp",
+  "standardRows": 9,
+  "standardRegionAlphaSha256Before": "7b3c968054a6a42c2f41b9e64b0622a6ca3cd7ab83b7ee2ac2ea6c39d0eab86a",
+  "standardRegionAlphaSha256After": "0ee35c0985ac62bc51f49d20a929fa1b6a994ca3e54e1046a93b138dda87026f",
+  "standardAlphaDiffPixels": 2468,
+  "standardAlphaSupportDiffPixels": 0,
+  "standardCellAlphaMismatches": [
+    {
+      "row": 0,
+      "column": 6
+    }
+  ],
+  "usedAnimationCellAlphaMismatches": [],
+  "neutralCell": {
+    "row": 0,
+    "column": 6,
+    "alphaValueDiffPixels": 2468,
+    "alphaSupportDiffPixels": 0,
+    "bboxBefore": [
+      27,
+      5,
+      165,
+      203
+    ],
+    "bboxAfter": [
+      27,
+      5,
+      165,
+      203
+    ],
+    "note": "The approved assembler alpha-composites the existing neutral cell into row0c6, strengthening translucent alpha values while preserving visible support and bbox. This special neutral is not one of the six idle animation frames."
+  },
+  "standardVisiblePixels": 944034,
+  "standardVisibleRgbPixelsChangedBySingleFinalDespill": 21804,
+  "standardVisibleRgbChangeFraction": 0.023096625757123155,
+  "interpretation": "Rows 0-8 used animation cells preserve alpha exactly; the entire standard region preserves visible alpha support and cell occupancy. Only special neutral row0c6 has strengthened translucent alpha values from the approved neutral paste, with identical support and bbox. Visible RGB changes are from the single approved edge-local final despill pass."
+}

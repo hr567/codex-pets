@@ -1,0 +1,27 @@
+{
+  "ok": true,
+  "baselineContinuity": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\blackmi\\qa\\before\\look-continuity.json",
+  "finalContinuity": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\blackmi\\qa\\after\\look-continuity.json",
+  "criticalBoundary": {
+    "pair": "157.5->180",
+    "before": {
+      "diffPixels": 4390,
+      "centerDelta": 14.221462653327892,
+      "areaRatio": 1.2501718803712616
+    },
+    "after": {
+      "diffPixels": 4771,
+      "centerDelta": 7.905694150420948,
+      "areaRatio": 1.0224872749373244
+    },
+    "assessment": "Substantially improved: center jump is reduced by about 44%, and excess area change is reduced by about 91%. The remaining pixel-diff warning is the expected head-orientation transition and has no visible body-scale pop."
+  },
+  "loopClosure": {
+    "pair": "337.5->000",
+    "centerDelta": 3.1622776601683795,
+    "areaRatio": 1.0388204288054705,
+    "assessment": "stable"
+  },
+  "semanticImprovement": "All sixteen directions now form a consistent clockwise family with unmistakable 000 up, 090 right, 180 down, and 270 left cardinals; row 10 retains screen-left landmarks throughout 202.5-337.5.",
+  "overallVerdict": "candidate is materially smoother and more precise than baseline without changing rows 0-8 identity or motion"
+}

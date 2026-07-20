@@ -1,0 +1,973 @@
+{
+  "ok": true,
+  "frames_root": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\mango\\qa\\work\\frames-refined",
+  "states": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "errors": [],
+  "warnings": [],
+  "rows": [
+    {
+      "state": "idle",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": null,
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\mango\\qa\\work\\frames-refined\\idle\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18146,
+          "bbox": [
+            5,
+            11,
+            187,
+            197
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\mango\\qa\\work\\frames-refined\\idle\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18256,
+          "bbox": [
+            5,
+            10,
+            187,
+            198
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\mango\\qa\\work\\frames-refined\\idle\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18688,
+          "bbox": [
+            5,
+            8,
+            187,
+            199
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\mango\\qa\\work\\frames-refined\\idle\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18312,
+          "bbox": [
+            5,
+            10,
+            187,
+            197
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\mango\\qa\\work\\frames-refined\\idle\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18898,
+          "bbox": [
+            5,
+            8,
+            187,
+            199
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\mango\\qa\\work\\frames-refined\\idle\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18481,
+          "bbox": [
+            5,
+            10,
+            187,
+            198
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "running-right",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": null,
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\mango\\qa\\work\\frames-refined\\running-right\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 6819,
+          "bbox": [
+            5,
+            56,
+            187,
+            152
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\mango\\qa\\work\\frames-refined\\running-right\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 7532,
+          "bbox": [
+            5,
+            53,
+            187,
+            155
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\mango\\qa\\work\\frames-refined\\running-right\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 7043,
+          "bbox": [
+            5,
+            53,
+            187,
+            154
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\mango\\qa\\work\\frames-refined\\running-right\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 6550,
+          "bbox": [
+            5,
+            58,
+            187,
+            149
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\mango\\qa\\work\\frames-refined\\running-right\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 7451,
+          "bbox": [
+            5,
+            53,
+            187,
+            154
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\mango\\qa\\work\\frames-refined\\running-right\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 7190,
+          "bbox": [
+            5,
+            55,
+            187,
+            152
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 6,
+          "file": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\mango\\qa\\work\\frames-refined\\running-right\\06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8186,
+          "bbox": [
+            5,
+            49,
+            187,
+            159
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 7,
+          "file": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\mango\\qa\\work\\frames-refined\\running-right\\07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 7262,
+          "bbox": [
+            5,
+            54,
+            187,
+            153
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "running-left",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": null,
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\mango\\qa\\work\\frames-refined\\running-left\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 6789,
+          "bbox": [
+            5,
+            63,
+            187,
+            145
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\mango\\qa\\work\\frames-refined\\running-left\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 7880,
+          "bbox": [
+            5,
+            55,
+            187,
+            152
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\mango\\qa\\work\\frames-refined\\running-left\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 7681,
+          "bbox": [
+            5,
+            53,
+            187,
+            155
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\mango\\qa\\work\\frames-refined\\running-left\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 7247,
+          "bbox": [
+            5,
+            58,
+            187,
+            149
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\mango\\qa\\work\\frames-refined\\running-left\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 7650,
+          "bbox": [
+            5,
+            57,
+            187,
+            150
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\mango\\qa\\work\\frames-refined\\running-left\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9005,
+          "bbox": [
+            5,
+            47,
+            187,
+            161
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 6,
+          "file": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\mango\\qa\\work\\frames-refined\\running-left\\06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8296,
+          "bbox": [
+            5,
+            53,
+            187,
+            155
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 7,
+          "file": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\mango\\qa\\work\\frames-refined\\running-left\\07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8716,
+          "bbox": [
+            5,
+            51,
+            187,
+            157
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "waving",
+      "expected_frames": 4,
+      "actual_frames": 4,
+      "extraction_method": null,
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\mango\\qa\\work\\frames-refined\\waving\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14607,
+          "bbox": [
+            22,
+            5,
+            169,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\mango\\qa\\work\\frames-refined\\waving\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14315,
+          "bbox": [
+            18,
+            5,
+            174,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\mango\\qa\\work\\frames-refined\\waving\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15245,
+          "bbox": [
+            17,
+            5,
+            174,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\mango\\qa\\work\\frames-refined\\waving\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13881,
+          "bbox": [
+            33,
+            5,
+            158,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "jumping",
+      "expected_frames": 5,
+      "actual_frames": 5,
+      "extraction_method": null,
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\mango\\qa\\work\\frames-refined\\jumping\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 6683,
+          "bbox": [
+            6,
+            117,
+            185,
+            191
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\mango\\qa\\work\\frames-refined\\jumping\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8362,
+          "bbox": [
+            6,
+            21,
+            186,
+            189
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\mango\\qa\\work\\frames-refined\\jumping\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 5896,
+          "bbox": [
+            6,
+            16,
+            186,
+            97
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\mango\\qa\\work\\frames-refined\\jumping\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8509,
+          "bbox": [
+            6,
+            37,
+            186,
+            148
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\mango\\qa\\work\\frames-refined\\jumping\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 7108,
+          "bbox": [
+            6,
+            97,
+            186,
+            174
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "failed",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": null,
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\mango\\qa\\work\\frames-refined\\failed\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19086,
+          "bbox": [
+            5,
+            7,
+            187,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\mango\\qa\\work\\frames-refined\\failed\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17747,
+          "bbox": [
+            5,
+            8,
+            187,
+            199
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\mango\\qa\\work\\frames-refined\\failed\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17538,
+          "bbox": [
+            5,
+            14,
+            187,
+            193
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\mango\\qa\\work\\frames-refined\\failed\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15037,
+          "bbox": [
+            5,
+            28,
+            187,
+            180
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\mango\\qa\\work\\frames-refined\\failed\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13834,
+          "bbox": [
+            5,
+            38,
+            187,
+            169
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\mango\\qa\\work\\frames-refined\\failed\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13670,
+          "bbox": [
+            5,
+            40,
+            187,
+            167
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 6,
+          "file": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\mango\\qa\\work\\frames-refined\\failed\\06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12589,
+          "bbox": [
+            5,
+            44,
+            187,
+            164
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 7,
+          "file": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\mango\\qa\\work\\frames-refined\\failed\\07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 10524,
+          "bbox": [
+            5,
+            56,
+            187,
+            152
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "waiting",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": null,
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\mango\\qa\\work\\frames-refined\\waiting\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14790,
+          "bbox": [
+            29,
+            5,
+            163,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\mango\\qa\\work\\frames-refined\\waiting\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14729,
+          "bbox": [
+            30,
+            5,
+            162,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\mango\\qa\\work\\frames-refined\\waiting\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14123,
+          "bbox": [
+            29,
+            5,
+            162,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\mango\\qa\\work\\frames-refined\\waiting\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13736,
+          "bbox": [
+            27,
+            5,
+            164,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\mango\\qa\\work\\frames-refined\\waiting\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13954,
+          "bbox": [
+            32,
+            5,
+            160,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\mango\\qa\\work\\frames-refined\\waiting\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14369,
+          "bbox": [
+            31,
+            5,
+            160,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "running",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": null,
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\mango\\qa\\work\\frames-refined\\running\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14101,
+          "bbox": [
+            26,
+            5,
+            166,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\mango\\qa\\work\\frames-refined\\running\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14164,
+          "bbox": [
+            25,
+            5,
+            167,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\mango\\qa\\work\\frames-refined\\running\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13886,
+          "bbox": [
+            26,
+            5,
+            165,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\mango\\qa\\work\\frames-refined\\running\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13491,
+          "bbox": [
+            26,
+            5,
+            165,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\mango\\qa\\work\\frames-refined\\running\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13880,
+          "bbox": [
+            26,
+            5,
+            165,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\mango\\qa\\work\\frames-refined\\running\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13938,
+          "bbox": [
+            26,
+            5,
+            165,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "review",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": null,
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\mango\\qa\\work\\frames-refined\\review\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16770,
+          "bbox": [
+            16,
+            5,
+            175,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\mango\\qa\\work\\frames-refined\\review\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18099,
+          "bbox": [
+            5,
+            5,
+            186,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\mango\\qa\\work\\frames-refined\\review\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15679,
+          "bbox": [
+            5,
+            24,
+            187,
+            184
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\mango\\qa\\work\\frames-refined\\review\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16574,
+          "bbox": [
+            5,
+            24,
+            187,
+            184
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\mango\\qa\\work\\frames-refined\\review\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17491,
+          "bbox": [
+            5,
+            5,
+            187,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\mango\\qa\\work\\frames-refined\\review\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15568,
+          "bbox": [
+            21,
+            5,
+            171,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    }
+  ]
+}

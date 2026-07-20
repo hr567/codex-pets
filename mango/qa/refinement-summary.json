@@ -1,0 +1,56 @@
+{
+  "ok": true,
+  "petId": "mangguo",
+  "displayName": "芒狗",
+  "delivery": "../spritesheet.webp",
+  "deliverySha256": "C6AAA633A59A64F2AD030D4C54E353108076AB6B5C510BB9B0B918AD0A486184",
+  "spriteVersionNumber": 2,
+  "geometry": {
+    "width": 1536,
+    "height": 2288,
+    "columns": 8,
+    "rows": 11,
+    "cellWidth": 192,
+    "cellHeight": 208
+  },
+  "refinement": {
+    "method": "Exact whole-frame reuse plus approved deterministic composition; no redraw, interpolation, resampling, or image generation.",
+    "reviewRowSourceOrder": [0, 2, 1, 3, 4, 5],
+    "reviewBaselineJumps19pxBefore": 4,
+    "reviewBaselineJumps19pxAfter": 2,
+    "reviewTotalCenterMotionBefore": 33.082,
+    "reviewTotalCenterMotionAfter": 24.595,
+    "reviewCenterMotionReductionPercent": 25.7,
+    "reviewTotalAlphaDiffBefore": 37170,
+    "reviewTotalAlphaDiffAfter": 31148,
+    "reviewAlphaDiffReductionPercent": 16.2,
+    "lookRegistration": "Existing approved 16-cell content retained; official shared lower-body anchor translated only 225, 270, and 292.5 by +1px horizontally."
+  },
+  "identityPreservation": {
+    "report": "identity-preservation.json",
+    "standardUsedCellsExactToMappedSource": true,
+    "unusedStandardCellsTransparent": true,
+    "lookCellContentExactModuloTranslation": true
+  },
+  "qa": {
+    "validation": "validation.json",
+    "review": "review.json",
+    "motionBefore": "motion-baseline.json",
+    "motionAfter": "motion-refined.json",
+    "contactBefore": "contact-sheet-baseline.png",
+    "contactAfter": "contact-sheet-refined.png",
+    "reviewPreviewBefore": "review-before.gif",
+    "previewsAfter": "previews",
+    "lookContinuityBefore": "look-continuity-baseline.json",
+    "lookContinuityAfter": "look-continuity-refined.json",
+    "lookDirections": "look-directions-refined.png",
+    "directionSemantics": "direction-semantics.json"
+  },
+  "acceptedWarnings": [
+    "look-continuity-refined.json remains reviewRequired: 15 alpha-hole warning groups are the cat's intentional negative spaces between legs/body/tail and are content-identical to the approved source.",
+    "Seven look continuity metric warnings describe the natural head-lowering arc; normal-size labeled review finds no wrong cardinal, wrong quadrant, loop reversal, identity jump, scale pop, clipping, or broken attachment.",
+    "Pillow emitted future deprecation notices for getdata in the bundled hatch-pet validator; validation itself passed with no atlas warnings."
+  ],
+  "despillReapplied": false,
+  "despillNote": "The approved source pixels were already transparent and residue-free; a second chroma cleanup pass was intentionally avoided."
+}

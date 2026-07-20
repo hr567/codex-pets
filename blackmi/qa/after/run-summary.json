@@ -1,0 +1,26 @@
+{
+  "ok": true,
+  "petId": "blackmi",
+  "spriteVersionNumber": 2,
+  "package": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\blackmi",
+  "spritesheet": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\blackmi\\spritesheet.webp",
+  "spritesheetSha256": "24D279901E444D56929CED6882075C8F28C8206AC650FB6146811FF9ACB43C8C",
+  "spritesheetBytes": 1874514,
+  "validation": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\blackmi\\qa\\after\\validation-delivery.json",
+  "chromaDespill": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\blackmi\\qa\\after\\chroma-despill.json",
+  "contactSheet": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\blackmi\\qa\\after\\contact-sheet.png",
+  "directionSheet": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\blackmi\\qa\\after\\look-directions.png",
+  "directionSemantics": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\blackmi\\qa\\after\\direction-semantics.json",
+  "continuity": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\blackmi\\qa\\after\\look-continuity.json",
+  "standardReview": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\blackmi\\qa\\after\\review.json",
+  "standardPreviews": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\blackmi\\qa\\after\\previews",
+  "identityAudit": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\blackmi\\qa\\after\\identity-audit.json",
+  "improvementSummary": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\blackmi\\qa\\after\\improvement-summary.json",
+  "majorFailures": [],
+  "acceptedWarnings": [
+    "067.5->090 pixel diff outlier without center, area, identity, or baseline snap",
+    "135->157.5 bbox-center warning caused by progressive head lowering",
+    "157.5->180 pixel diff outlier with centerDelta reduced to 7.9px and areaRatio reduced to 1.02",
+    "approved assembler strengthens translucent alpha values in special neutral row0c6 while preserving its visible support and bbox"
+  ]
+}

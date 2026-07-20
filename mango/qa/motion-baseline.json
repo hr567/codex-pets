@@ -1,0 +1,2456 @@
+{
+  "ok": true,
+  "atlas": "C:\\Users\\Administrator\\.codex\\worktrees\\b7c4\\pets\\mango\\spritesheet.webp",
+  "width": 1536,
+  "height": 2288,
+  "cell": [
+    192,
+    208
+  ],
+  "neutralFrame": {
+    "empty": false,
+    "bbox": [
+      5,
+      11,
+      187,
+      197
+    ],
+    "area": 17036,
+    "center": [
+      71.657,
+      107.085
+    ],
+    "baseline": 196,
+    "width": 182,
+    "height": 186
+  },
+  "rows": [
+    {
+      "row": 0,
+      "state": "idle",
+      "frameCount": 6,
+      "loop": true,
+      "frames": [
+        {
+          "empty": false,
+          "bbox": [
+            5,
+            11,
+            187,
+            197
+          ],
+          "area": 17036,
+          "center": [
+            71.657,
+            107.085
+          ],
+          "baseline": 196,
+          "width": 182,
+          "height": 186
+        },
+        {
+          "empty": false,
+          "bbox": [
+            5,
+            10,
+            187,
+            198
+          ],
+          "area": 17092,
+          "center": [
+            71.761,
+            107.21
+          ],
+          "baseline": 197,
+          "width": 182,
+          "height": 188
+        },
+        {
+          "empty": false,
+          "bbox": [
+            5,
+            8,
+            187,
+            199
+          ],
+          "area": 17509,
+          "center": [
+            72.19,
+            106.72
+          ],
+          "baseline": 198,
+          "width": 182,
+          "height": 191
+        },
+        {
+          "empty": false,
+          "bbox": [
+            5,
+            10,
+            187,
+            197
+          ],
+          "area": 17178,
+          "center": [
+            72.318,
+            106.725
+          ],
+          "baseline": 196,
+          "width": 182,
+          "height": 187
+        },
+        {
+          "empty": false,
+          "bbox": [
+            5,
+            8,
+            187,
+            199
+          ],
+          "area": 17729,
+          "center": [
+            72.889,
+            106.753
+          ],
+          "baseline": 198,
+          "width": 182,
+          "height": 191
+        },
+        {
+          "empty": false,
+          "bbox": [
+            5,
+            10,
+            187,
+            198
+          ],
+          "area": 17335,
+          "center": [
+            72.498,
+            106.763
+          ],
+          "baseline": 197,
+          "width": 182,
+          "height": 188
+        }
+      ],
+      "transitions": [
+        {
+          "alphaDiffPixels": 734,
+          "rgbaDiffPixels": 10396,
+          "centerDelta": 0.163,
+          "areaRatio": 1.0033,
+          "baselineDelta": 1,
+          "nearDuplicate": false,
+          "from": 0,
+          "to": 1,
+          "loopClosure": false
+        },
+        {
+          "alphaDiffPixels": 845,
+          "rgbaDiffPixels": 10527,
+          "centerDelta": 0.651,
+          "areaRatio": 1.0244,
+          "baselineDelta": 1,
+          "nearDuplicate": false,
+          "from": 1,
+          "to": 2,
+          "loopClosure": false
+        },
+        {
+          "alphaDiffPixels": 539,
+          "rgbaDiffPixels": 11411,
+          "centerDelta": 0.128,
+          "areaRatio": 1.0193,
+          "baselineDelta": 2,
+          "nearDuplicate": false,
+          "from": 2,
+          "to": 3,
+          "loopClosure": false
+        },
+        {
+          "alphaDiffPixels": 927,
+          "rgbaDiffPixels": 10891,
+          "centerDelta": 0.572,
+          "areaRatio": 1.0321,
+          "baselineDelta": 2,
+          "nearDuplicate": false,
+          "from": 3,
+          "to": 4,
+          "loopClosure": false
+        },
+        {
+          "alphaDiffPixels": 702,
+          "rgbaDiffPixels": 11126,
+          "centerDelta": 0.391,
+          "areaRatio": 1.0227,
+          "baselineDelta": 1,
+          "nearDuplicate": false,
+          "from": 4,
+          "to": 5,
+          "loopClosure": false
+        },
+        {
+          "alphaDiffPixels": 723,
+          "rgbaDiffPixels": 11195,
+          "centerDelta": 0.901,
+          "areaRatio": 1.0176,
+          "baselineDelta": 1,
+          "nearDuplicate": false,
+          "from": 5,
+          "to": 0,
+          "loopClosure": true
+        }
+      ],
+      "summary": {
+        "maxCenterDelta": 0.651,
+        "maxAlphaDiffPixels": 927,
+        "maxBaselineDelta": 2,
+        "nearDuplicateTransitions": 0
+      },
+      "warnings": []
+    },
+    {
+      "row": 1,
+      "state": "running-right",
+      "frameCount": 8,
+      "loop": true,
+      "frames": [
+        {
+          "empty": false,
+          "bbox": [
+            5,
+            56,
+            187,
+            152
+          ],
+          "area": 6819,
+          "center": [
+            112.666,
+            105.383
+          ],
+          "baseline": 151,
+          "width": 182,
+          "height": 96
+        },
+        {
+          "empty": false,
+          "bbox": [
+            5,
+            53,
+            187,
+            155
+          ],
+          "area": 7532,
+          "center": [
+            112.182,
+            106.278
+          ],
+          "baseline": 154,
+          "width": 182,
+          "height": 102
+        },
+        {
+          "empty": false,
+          "bbox": [
+            5,
+            53,
+            187,
+            154
+          ],
+          "area": 7043,
+          "center": [
+            110.084,
+            102.119
+          ],
+          "baseline": 153,
+          "width": 182,
+          "height": 101
+        },
+        {
+          "empty": false,
+          "bbox": [
+            5,
+            58,
+            187,
+            149
+          ],
+          "area": 6550,
+          "center": [
+            113.205,
+            102.758
+          ],
+          "baseline": 148,
+          "width": 182,
+          "height": 91
+        },
+        {
+          "empty": false,
+          "bbox": [
+            5,
+            53,
+            187,
+            154
+          ],
+          "area": 7451,
+          "center": [
+            111.778,
+            105.921
+          ],
+          "baseline": 153,
+          "width": 182,
+          "height": 101
+        },
+        {
+          "empty": false,
+          "bbox": [
+            5,
+            55,
+            187,
+            152
+          ],
+          "area": 7190,
+          "center": [
+            109.929,
+            99.662
+          ],
+          "baseline": 151,
+          "width": 182,
+          "height": 97
+        },
+        {
+          "empty": false,
+          "bbox": [
+            5,
+            49,
+            187,
+            159
+          ],
+          "area": 8186,
+          "center": [
+            108.102,
+            101.675
+          ],
+          "baseline": 158,
+          "width": 182,
+          "height": 110
+        },
+        {
+          "empty": false,
+          "bbox": [
+            5,
+            54,
+            187,
+            153
+          ],
+          "area": 7262,
+          "center": [
+            112.89,
+            106.008
+          ],
+          "baseline": 152,
+          "width": 182,
+          "height": 99
+        }
+      ],
+      "transitions": [
+        {
+          "alphaDiffPixels": 2253,
+          "rgbaDiffPixels": 6587,
+          "centerDelta": 1.017,
+          "areaRatio": 1.1046,
+          "baselineDelta": 3,
+          "nearDuplicate": false,
+          "from": 0,
+          "to": 1,
+          "loopClosure": false
+        },
+        {
+          "alphaDiffPixels": 2823,
+          "rgbaDiffPixels": 7800,
+          "centerDelta": 4.658,
+          "areaRatio": 1.0694,
+          "baselineDelta": 1,
+          "nearDuplicate": false,
+          "from": 1,
+          "to": 2,
+          "loopClosure": false
+        },
+        {
+          "alphaDiffPixels": 1963,
+          "rgbaDiffPixels": 6952,
+          "centerDelta": 3.186,
+          "areaRatio": 1.0753,
+          "baselineDelta": 5,
+          "nearDuplicate": false,
+          "from": 2,
+          "to": 3,
+          "loopClosure": false
+        },
+        {
+          "alphaDiffPixels": 2803,
+          "rgbaDiffPixels": 7701,
+          "centerDelta": 3.47,
+          "areaRatio": 1.1376,
+          "baselineDelta": 5,
+          "nearDuplicate": false,
+          "from": 3,
+          "to": 4,
+          "loopClosure": false
+        },
+        {
+          "alphaDiffPixels": 3785,
+          "rgbaDiffPixels": 8054,
+          "centerDelta": 6.526,
+          "areaRatio": 1.0363,
+          "baselineDelta": 2,
+          "nearDuplicate": false,
+          "from": 4,
+          "to": 5,
+          "loopClosure": false
+        },
+        {
+          "alphaDiffPixels": 2874,
+          "rgbaDiffPixels": 7995,
+          "centerDelta": 2.718,
+          "areaRatio": 1.1385,
+          "baselineDelta": 7,
+          "nearDuplicate": false,
+          "from": 5,
+          "to": 6,
+          "loopClosure": false
+        },
+        {
+          "alphaDiffPixels": 4490,
+          "rgbaDiffPixels": 8999,
+          "centerDelta": 6.458,
+          "areaRatio": 1.1272,
+          "baselineDelta": 6,
+          "nearDuplicate": false,
+          "from": 6,
+          "to": 7,
+          "loopClosure": false
+        },
+        {
+          "alphaDiffPixels": 2495,
+          "rgbaDiffPixels": 7111,
+          "centerDelta": 0.664,
+          "areaRatio": 1.065,
+          "baselineDelta": 1,
+          "nearDuplicate": false,
+          "from": 7,
+          "to": 0,
+          "loopClosure": true
+        }
+      ],
+      "summary": {
+        "maxCenterDelta": 6.526,
+        "maxAlphaDiffPixels": 4490,
+        "maxBaselineDelta": 7,
+        "nearDuplicateTransitions": 0
+      },
+      "warnings": []
+    },
+    {
+      "row": 2,
+      "state": "running-left",
+      "frameCount": 8,
+      "loop": true,
+      "frames": [
+        {
+          "empty": false,
+          "bbox": [
+            5,
+            63,
+            187,
+            145
+          ],
+          "area": 6188,
+          "center": [
+            80.64,
+            103.417
+          ],
+          "baseline": 144,
+          "width": 182,
+          "height": 82
+        },
+        {
+          "empty": false,
+          "bbox": [
+            5,
+            55,
+            187,
+            152
+          ],
+          "area": 7248,
+          "center": [
+            78.3,
+            103.556
+          ],
+          "baseline": 151,
+          "width": 182,
+          "height": 97
+        },
+        {
+          "empty": false,
+          "bbox": [
+            5,
+            53,
+            187,
+            155
+          ],
+          "area": 7175,
+          "center": [
+            78.242,
+            104.08
+          ],
+          "baseline": 154,
+          "width": 182,
+          "height": 102
+        },
+        {
+          "empty": false,
+          "bbox": [
+            5,
+            58,
+            187,
+            149
+          ],
+          "area": 6624,
+          "center": [
+            76.766,
+            104.631
+          ],
+          "baseline": 148,
+          "width": 182,
+          "height": 91
+        },
+        {
+          "empty": false,
+          "bbox": [
+            5,
+            57,
+            187,
+            150
+          ],
+          "area": 6997,
+          "center": [
+            78.346,
+            103.978
+          ],
+          "baseline": 149,
+          "width": 182,
+          "height": 93
+        },
+        {
+          "empty": false,
+          "bbox": [
+            5,
+            47,
+            187,
+            161
+          ],
+          "area": 8501,
+          "center": [
+            79.986,
+            105.433
+          ],
+          "baseline": 160,
+          "width": 182,
+          "height": 114
+        },
+        {
+          "empty": false,
+          "bbox": [
+            5,
+            53,
+            187,
+            155
+          ],
+          "area": 7663,
+          "center": [
+            78.078,
+            105.071
+          ],
+          "baseline": 154,
+          "width": 182,
+          "height": 102
+        },
+        {
+          "empty": false,
+          "bbox": [
+            5,
+            51,
+            187,
+            157
+          ],
+          "area": 8058,
+          "center": [
+            79.496,
+            107.432
+          ],
+          "baseline": 156,
+          "width": 182,
+          "height": 106
+        }
+      ],
+      "transitions": [
+        {
+          "alphaDiffPixels": 4012,
+          "rgbaDiffPixels": 8990,
+          "centerDelta": 2.344,
+          "areaRatio": 1.1713,
+          "baselineDelta": 7,
+          "nearDuplicate": false,
+          "from": 0,
+          "to": 1,
+          "loopClosure": false
+        },
+        {
+          "alphaDiffPixels": 2089,
+          "rgbaDiffPixels": 7859,
+          "centerDelta": 0.527,
+          "areaRatio": 1.0102,
+          "baselineDelta": 3,
+          "nearDuplicate": false,
+          "from": 1,
+          "to": 2,
+          "loopClosure": false
+        },
+        {
+          "alphaDiffPixels": 3347,
+          "rgbaDiffPixels": 8684,
+          "centerDelta": 1.575,
+          "areaRatio": 1.0832,
+          "baselineDelta": 6,
+          "nearDuplicate": false,
+          "from": 2,
+          "to": 3,
+          "loopClosure": false
+        },
+        {
+          "alphaDiffPixels": 1939,
+          "rgbaDiffPixels": 7694,
+          "centerDelta": 1.71,
+          "areaRatio": 1.0563,
+          "baselineDelta": 1,
+          "nearDuplicate": false,
+          "from": 3,
+          "to": 4,
+          "loopClosure": false
+        },
+        {
+          "alphaDiffPixels": 4542,
+          "rgbaDiffPixels": 10176,
+          "centerDelta": 2.192,
+          "areaRatio": 1.2149,
+          "baselineDelta": 11,
+          "nearDuplicate": false,
+          "from": 4,
+          "to": 5,
+          "loopClosure": false
+        },
+        {
+          "alphaDiffPixels": 2990,
+          "rgbaDiffPixels": 9449,
+          "centerDelta": 1.942,
+          "areaRatio": 1.1094,
+          "baselineDelta": 6,
+          "nearDuplicate": false,
+          "from": 5,
+          "to": 6,
+          "loopClosure": false
+        },
+        {
+          "alphaDiffPixels": 1891,
+          "rgbaDiffPixels": 8450,
+          "centerDelta": 2.754,
+          "areaRatio": 1.0515,
+          "baselineDelta": 2,
+          "nearDuplicate": false,
+          "from": 6,
+          "to": 7,
+          "loopClosure": false
+        },
+        {
+          "alphaDiffPixels": 4800,
+          "rgbaDiffPixels": 9816,
+          "centerDelta": 4.175,
+          "areaRatio": 1.3022,
+          "baselineDelta": 12,
+          "nearDuplicate": false,
+          "from": 7,
+          "to": 0,
+          "loopClosure": true
+        }
+      ],
+      "summary": {
+        "maxCenterDelta": 2.754,
+        "maxAlphaDiffPixels": 4542,
+        "maxBaselineDelta": 11,
+        "nearDuplicateTransitions": 0
+      },
+      "warnings": [
+        "4->5 baseline shift is high (11px)",
+        "4->5 area ratio is high (1.2149)",
+        "7->0 baseline shift is high (12px)",
+        "7->0 area ratio is high (1.3022)"
+      ]
+    },
+    {
+      "row": 3,
+      "state": "waving",
+      "frameCount": 4,
+      "loop": true,
+      "frames": [
+        {
+          "empty": false,
+          "bbox": [
+            22,
+            5,
+            169,
+            203
+          ],
+          "area": 13890,
+          "center": [
+            66.85,
+            117.23
+          ],
+          "baseline": 202,
+          "width": 147,
+          "height": 198
+        },
+        {
+          "empty": false,
+          "bbox": [
+            18,
+            5,
+            174,
+            203
+          ],
+          "area": 13470,
+          "center": [
+            77.728,
+            112.478
+          ],
+          "baseline": 202,
+          "width": 156,
+          "height": 198
+        },
+        {
+          "empty": false,
+          "bbox": [
+            17,
+            5,
+            174,
+            203
+          ],
+          "area": 14476,
+          "center": [
+            77.128,
+            112.583
+          ],
+          "baseline": 202,
+          "width": 157,
+          "height": 198
+        },
+        {
+          "empty": false,
+          "bbox": [
+            33,
+            5,
+            158,
+            203
+          ],
+          "area": 13216,
+          "center": [
+            73.948,
+            115.779
+          ],
+          "baseline": 202,
+          "width": 125,
+          "height": 198
+        }
+      ],
+      "transitions": [
+        {
+          "alphaDiffPixels": 5944,
+          "rgbaDiffPixels": 16094,
+          "centerDelta": 11.871,
+          "areaRatio": 1.0312,
+          "baselineDelta": 0,
+          "nearDuplicate": false,
+          "from": 0,
+          "to": 1,
+          "loopClosure": false
+        },
+        {
+          "alphaDiffPixels": 3020,
+          "rgbaDiffPixels": 12716,
+          "centerDelta": 0.609,
+          "areaRatio": 1.0747,
+          "baselineDelta": 0,
+          "nearDuplicate": false,
+          "from": 1,
+          "to": 2,
+          "loopClosure": false
+        },
+        {
+          "alphaDiffPixels": 3940,
+          "rgbaDiffPixels": 13701,
+          "centerDelta": 4.509,
+          "areaRatio": 1.0953,
+          "baselineDelta": 0,
+          "nearDuplicate": false,
+          "from": 2,
+          "to": 3,
+          "loopClosure": false
+        },
+        {
+          "alphaDiffPixels": 3848,
+          "rgbaDiffPixels": 14400,
+          "centerDelta": 7.245,
+          "areaRatio": 1.051,
+          "baselineDelta": 0,
+          "nearDuplicate": false,
+          "from": 3,
+          "to": 0,
+          "loopClosure": true
+        }
+      ],
+      "summary": {
+        "maxCenterDelta": 11.871,
+        "maxAlphaDiffPixels": 5944,
+        "maxBaselineDelta": 0,
+        "nearDuplicateTransitions": 0
+      },
+      "warnings": [
+        "0->1 center shift is high (11.871px)"
+      ]
+    },
+    {
+      "row": 4,
+      "state": "jumping",
+      "frameCount": 5,
+      "loop": true,
+      "frames": [
+        {
+          "empty": false,
+          "bbox": [
+            8,
+            119,
+            183,
+            189
+          ],
+          "area": 6174,
+          "center": [
+            115.001,
+            153.728
+          ],
+          "baseline": 188,
+          "width": 175,
+          "height": 70
+        },
+        {
+          "empty": false,
+          "bbox": [
+            8,
+            23,
+            184,
+            187
+          ],
+          "area": 7678,
+          "center": [
+            106.418,
+            100.294
+          ],
+          "baseline": 186,
+          "width": 176,
+          "height": 164
+        },
+        {
+          "empty": false,
+          "bbox": [
+            8,
+            18,
+            184,
+            95
+          ],
+          "area": 5339,
+          "center": [
+            100.805,
+            56.38
+          ],
+          "baseline": 94,
+          "width": 176,
+          "height": 77
+        },
+        {
+          "empty": false,
+          "bbox": [
+            8,
+            38,
+            184,
+            146
+          ],
+          "area": 7855,
+          "center": [
+            109.953,
+            80.953
+          ],
+          "baseline": 145,
+          "width": 176,
+          "height": 108
+        },
+        {
+          "empty": false,
+          "bbox": [
+            8,
+            99,
+            184,
+            172
+          ],
+          "area": 6565,
+          "center": [
+            114.035,
+            133.608
+          ],
+          "baseline": 171,
+          "width": 176,
+          "height": 73
+        }
+      ],
+      "transitions": [
+        {
+          "alphaDiffPixels": 12290,
+          "rgbaDiffPixels": 13995,
+          "centerDelta": 54.119,
+          "areaRatio": 1.2436,
+          "baselineDelta": 2,
+          "nearDuplicate": false,
+          "from": 0,
+          "to": 1,
+          "loopClosure": false
+        },
+        {
+          "alphaDiffPixels": 10567,
+          "rgbaDiffPixels": 12759,
+          "centerDelta": 44.271,
+          "areaRatio": 1.4381,
+          "baselineDelta": 92,
+          "nearDuplicate": false,
+          "from": 1,
+          "to": 2,
+          "loopClosure": false
+        },
+        {
+          "alphaDiffPixels": 7660,
+          "rgbaDiffPixels": 10913,
+          "centerDelta": 26.221,
+          "areaRatio": 1.4712,
+          "baselineDelta": 51,
+          "nearDuplicate": false,
+          "from": 2,
+          "to": 3,
+          "loopClosure": false
+        },
+        {
+          "alphaDiffPixels": 11796,
+          "rgbaDiffPixels": 14027,
+          "centerDelta": 52.813,
+          "areaRatio": 1.1965,
+          "baselineDelta": 26,
+          "nearDuplicate": false,
+          "from": 3,
+          "to": 4,
+          "loopClosure": false
+        },
+        {
+          "alphaDiffPixels": 6159,
+          "rgbaDiffPixels": 9773,
+          "centerDelta": 20.143,
+          "areaRatio": 1.0633,
+          "baselineDelta": 17,
+          "nearDuplicate": false,
+          "from": 4,
+          "to": 0,
+          "loopClosure": true
+        }
+      ],
+      "summary": {
+        "maxCenterDelta": 54.119,
+        "maxAlphaDiffPixels": 12290,
+        "maxBaselineDelta": 92,
+        "nearDuplicateTransitions": 0
+      },
+      "warnings": [
+        "0->1 center shift is high (54.119px)",
+        "0->1 area ratio is high (1.2436)",
+        "1->2 center shift is high (44.271px)",
+        "1->2 baseline shift is high (92px)",
+        "1->2 area ratio is high (1.4381)",
+        "2->3 center shift is high (26.221px)",
+        "2->3 baseline shift is high (51px)",
+        "2->3 area ratio is high (1.4712)",
+        "3->4 center shift is high (52.813px)",
+        "3->4 baseline shift is high (26px)",
+        "4->0 center shift is high (20.143px)",
+        "4->0 baseline shift is high (17px)"
+      ]
+    },
+    {
+      "row": 5,
+      "state": "failed",
+      "frameCount": 8,
+      "loop": true,
+      "frames": [
+        {
+          "empty": false,
+          "bbox": [
+            5,
+            7,
+            187,
+            201
+          ],
+          "area": 18330,
+          "center": [
+            83.01,
+            107.755
+          ],
+          "baseline": 200,
+          "width": 182,
+          "height": 194
+        },
+        {
+          "empty": false,
+          "bbox": [
+            5,
+            8,
+            187,
+            199
+          ],
+          "area": 17076,
+          "center": [
+            82.119,
+            107.126
+          ],
+          "baseline": 198,
+          "width": 182,
+          "height": 191
+        },
+        {
+          "empty": false,
+          "bbox": [
+            5,
+            14,
+            187,
+            193
+          ],
+          "area": 16908,
+          "center": [
+            85.712,
+            104.915
+          ],
+          "baseline": 192,
+          "width": 182,
+          "height": 179
+        },
+        {
+          "empty": false,
+          "bbox": [
+            5,
+            28,
+            187,
+            180
+          ],
+          "area": 14484,
+          "center": [
+            84.239,
+            104.936
+          ],
+          "baseline": 179,
+          "width": 182,
+          "height": 152
+        },
+        {
+          "empty": false,
+          "bbox": [
+            5,
+            38,
+            187,
+            169
+          ],
+          "area": 13315,
+          "center": [
+            85.152,
+            106.797
+          ],
+          "baseline": 168,
+          "width": 182,
+          "height": 131
+        },
+        {
+          "empty": false,
+          "bbox": [
+            5,
+            40,
+            187,
+            167
+          ],
+          "area": 13136,
+          "center": [
+            79.396,
+            106.13
+          ],
+          "baseline": 166,
+          "width": 182,
+          "height": 127
+        },
+        {
+          "empty": false,
+          "bbox": [
+            5,
+            44,
+            187,
+            164
+          ],
+          "area": 12123,
+          "center": [
+            82.464,
+            106.234
+          ],
+          "baseline": 163,
+          "width": 182,
+          "height": 120
+        },
+        {
+          "empty": false,
+          "bbox": [
+            5,
+            56,
+            187,
+            152
+          ],
+          "area": 10058,
+          "center": [
+            77.632,
+            107.916
+          ],
+          "baseline": 151,
+          "width": 182,
+          "height": 96
+        }
+      ],
+      "transitions": [
+        {
+          "alphaDiffPixels": 1942,
+          "rgbaDiffPixels": 16071,
+          "centerDelta": 1.091,
+          "areaRatio": 1.0734,
+          "baselineDelta": 2,
+          "nearDuplicate": false,
+          "from": 0,
+          "to": 1,
+          "loopClosure": false
+        },
+        {
+          "alphaDiffPixels": 3656,
+          "rgbaDiffPixels": 17764,
+          "centerDelta": 4.219,
+          "areaRatio": 1.0099,
+          "baselineDelta": 6,
+          "nearDuplicate": false,
+          "from": 1,
+          "to": 2,
+          "loopClosure": false
+        },
+        {
+          "alphaDiffPixels": 5488,
+          "rgbaDiffPixels": 17413,
+          "centerDelta": 1.473,
+          "areaRatio": 1.1674,
+          "baselineDelta": 13,
+          "nearDuplicate": false,
+          "from": 2,
+          "to": 3,
+          "loopClosure": false
+        },
+        {
+          "alphaDiffPixels": 5281,
+          "rgbaDiffPixels": 16027,
+          "centerDelta": 2.073,
+          "areaRatio": 1.0878,
+          "baselineDelta": 11,
+          "nearDuplicate": false,
+          "from": 3,
+          "to": 4,
+          "loopClosure": false
+        },
+        {
+          "alphaDiffPixels": 2325,
+          "rgbaDiffPixels": 13422,
+          "centerDelta": 5.795,
+          "areaRatio": 1.0136,
+          "baselineDelta": 2,
+          "nearDuplicate": false,
+          "from": 4,
+          "to": 5,
+          "loopClosure": false
+        },
+        {
+          "alphaDiffPixels": 1869,
+          "rgbaDiffPixels": 12610,
+          "centerDelta": 3.07,
+          "areaRatio": 1.0836,
+          "baselineDelta": 3,
+          "nearDuplicate": false,
+          "from": 5,
+          "to": 6,
+          "loopClosure": false
+        },
+        {
+          "alphaDiffPixels": 3605,
+          "rgbaDiffPixels": 11939,
+          "centerDelta": 5.116,
+          "areaRatio": 1.2053,
+          "baselineDelta": 12,
+          "nearDuplicate": false,
+          "from": 6,
+          "to": 7,
+          "loopClosure": false
+        },
+        {
+          "alphaDiffPixels": 13220,
+          "rgbaDiffPixels": 20998,
+          "centerDelta": 5.38,
+          "areaRatio": 1.8224,
+          "baselineDelta": 49,
+          "nearDuplicate": false,
+          "from": 7,
+          "to": 0,
+          "loopClosure": true
+        }
+      ],
+      "summary": {
+        "maxCenterDelta": 5.795,
+        "maxAlphaDiffPixels": 5488,
+        "maxBaselineDelta": 13,
+        "nearDuplicateTransitions": 0
+      },
+      "warnings": [
+        "2->3 baseline shift is high (13px)",
+        "3->4 baseline shift is high (11px)",
+        "6->7 baseline shift is high (12px)",
+        "6->7 area ratio is high (1.2053)",
+        "7->0 baseline shift is high (49px)",
+        "7->0 area ratio is high (1.8224)"
+      ]
+    },
+    {
+      "row": 6,
+      "state": "waiting",
+      "frameCount": 6,
+      "loop": true,
+      "frames": [
+        {
+          "empty": false,
+          "bbox": [
+            29,
+            5,
+            163,
+            203
+          ],
+          "area": 13918,
+          "center": [
+            74.579,
+            108.393
+          ],
+          "baseline": 202,
+          "width": 134,
+          "height": 198
+        },
+        {
+          "empty": false,
+          "bbox": [
+            30,
+            5,
+            162,
+            203
+          ],
+          "area": 13819,
+          "center": [
+            74.711,
+            108.749
+          ],
+          "baseline": 202,
+          "width": 132,
+          "height": 198
+        },
+        {
+          "empty": false,
+          "bbox": [
+            29,
+            5,
+            162,
+            203
+          ],
+          "area": 13214,
+          "center": [
+            74.319,
+            105.371
+          ],
+          "baseline": 202,
+          "width": 133,
+          "height": 198
+        },
+        {
+          "empty": false,
+          "bbox": [
+            27,
+            5,
+            164,
+            203
+          ],
+          "area": 12923,
+          "center": [
+            79.839,
+            102.843
+          ],
+          "baseline": 202,
+          "width": 137,
+          "height": 198
+        },
+        {
+          "empty": false,
+          "bbox": [
+            32,
+            5,
+            160,
+            203
+          ],
+          "area": 13067,
+          "center": [
+            78.442,
+            111.67
+          ],
+          "baseline": 202,
+          "width": 128,
+          "height": 198
+        },
+        {
+          "empty": false,
+          "bbox": [
+            31,
+            5,
+            160,
+            203
+          ],
+          "area": 13520,
+          "center": [
+            75.022,
+            107.964
+          ],
+          "baseline": 202,
+          "width": 129,
+          "height": 198
+        }
+      ],
+      "transitions": [
+        {
+          "alphaDiffPixels": 919,
+          "rgbaDiffPixels": 11368,
+          "centerDelta": 0.38,
+          "areaRatio": 1.0072,
+          "baselineDelta": 0,
+          "nearDuplicate": false,
+          "from": 0,
+          "to": 1,
+          "loopClosure": false
+        },
+        {
+          "alphaDiffPixels": 1481,
+          "rgbaDiffPixels": 12542,
+          "centerDelta": 3.401,
+          "areaRatio": 1.0458,
+          "baselineDelta": 0,
+          "nearDuplicate": false,
+          "from": 1,
+          "to": 2,
+          "loopClosure": false
+        },
+        {
+          "alphaDiffPixels": 3603,
+          "rgbaDiffPixels": 14244,
+          "centerDelta": 6.071,
+          "areaRatio": 1.0225,
+          "baselineDelta": 0,
+          "nearDuplicate": false,
+          "from": 2,
+          "to": 3,
+          "loopClosure": false
+        },
+        {
+          "alphaDiffPixels": 4372,
+          "rgbaDiffPixels": 14273,
+          "centerDelta": 8.937,
+          "areaRatio": 1.0111,
+          "baselineDelta": 0,
+          "nearDuplicate": false,
+          "from": 3,
+          "to": 4,
+          "loopClosure": false
+        },
+        {
+          "alphaDiffPixels": 2311,
+          "rgbaDiffPixels": 11844,
+          "centerDelta": 5.043,
+          "areaRatio": 1.0347,
+          "baselineDelta": 0,
+          "nearDuplicate": false,
+          "from": 4,
+          "to": 5,
+          "loopClosure": false
+        },
+        {
+          "alphaDiffPixels": 1044,
+          "rgbaDiffPixels": 11746,
+          "centerDelta": 0.617,
+          "areaRatio": 1.0294,
+          "baselineDelta": 0,
+          "nearDuplicate": false,
+          "from": 5,
+          "to": 0,
+          "loopClosure": true
+        }
+      ],
+      "summary": {
+        "maxCenterDelta": 8.937,
+        "maxAlphaDiffPixels": 4372,
+        "maxBaselineDelta": 0,
+        "nearDuplicateTransitions": 0
+      },
+      "warnings": []
+    },
+    {
+      "row": 7,
+      "state": "running",
+      "frameCount": 6,
+      "loop": true,
+      "frames": [
+        {
+          "empty": false,
+          "bbox": [
+            26,
+            5,
+            166,
+            203
+          ],
+          "area": 13228,
+          "center": [
+            69.462,
+            110.183
+          ],
+          "baseline": 202,
+          "width": 140,
+          "height": 198
+        },
+        {
+          "empty": false,
+          "bbox": [
+            25,
+            5,
+            167,
+            203
+          ],
+          "area": 13268,
+          "center": [
+            68.802,
+            109.724
+          ],
+          "baseline": 202,
+          "width": 142,
+          "height": 198
+        },
+        {
+          "empty": false,
+          "bbox": [
+            26,
+            5,
+            165,
+            203
+          ],
+          "area": 12988,
+          "center": [
+            68.807,
+            110.157
+          ],
+          "baseline": 202,
+          "width": 139,
+          "height": 198
+        },
+        {
+          "empty": false,
+          "bbox": [
+            26,
+            5,
+            165,
+            203
+          ],
+          "area": 12623,
+          "center": [
+            70.177,
+            107.412
+          ],
+          "baseline": 202,
+          "width": 139,
+          "height": 198
+        },
+        {
+          "empty": false,
+          "bbox": [
+            26,
+            5,
+            165,
+            203
+          ],
+          "area": 13026,
+          "center": [
+            68.674,
+            110.413
+          ],
+          "baseline": 202,
+          "width": 139,
+          "height": 198
+        },
+        {
+          "empty": false,
+          "bbox": [
+            26,
+            5,
+            165,
+            203
+          ],
+          "area": 13030,
+          "center": [
+            69.008,
+            110.144
+          ],
+          "baseline": 202,
+          "width": 139,
+          "height": 198
+        }
+      ],
+      "transitions": [
+        {
+          "alphaDiffPixels": 1132,
+          "rgbaDiffPixels": 8913,
+          "centerDelta": 0.804,
+          "areaRatio": 1.003,
+          "baselineDelta": 0,
+          "nearDuplicate": false,
+          "from": 0,
+          "to": 1,
+          "loopClosure": false
+        },
+        {
+          "alphaDiffPixels": 1258,
+          "rgbaDiffPixels": 9491,
+          "centerDelta": 0.433,
+          "areaRatio": 1.0216,
+          "baselineDelta": 0,
+          "nearDuplicate": false,
+          "from": 1,
+          "to": 2,
+          "loopClosure": false
+        },
+        {
+          "alphaDiffPixels": 1067,
+          "rgbaDiffPixels": 7929,
+          "centerDelta": 3.068,
+          "areaRatio": 1.0289,
+          "baselineDelta": 0,
+          "nearDuplicate": false,
+          "from": 2,
+          "to": 3,
+          "loopClosure": false
+        },
+        {
+          "alphaDiffPixels": 895,
+          "rgbaDiffPixels": 7641,
+          "centerDelta": 3.356,
+          "areaRatio": 1.0319,
+          "baselineDelta": 0,
+          "nearDuplicate": false,
+          "from": 3,
+          "to": 4,
+          "loopClosure": false
+        },
+        {
+          "alphaDiffPixels": 398,
+          "rgbaDiffPixels": 7740,
+          "centerDelta": 0.429,
+          "areaRatio": 1.0003,
+          "baselineDelta": 0,
+          "nearDuplicate": false,
+          "from": 4,
+          "to": 5,
+          "loopClosure": false
+        },
+        {
+          "alphaDiffPixels": 562,
+          "rgbaDiffPixels": 7309,
+          "centerDelta": 0.456,
+          "areaRatio": 1.0152,
+          "baselineDelta": 0,
+          "nearDuplicate": false,
+          "from": 5,
+          "to": 0,
+          "loopClosure": true
+        }
+      ],
+      "summary": {
+        "maxCenterDelta": 3.356,
+        "maxAlphaDiffPixels": 1258,
+        "maxBaselineDelta": 0,
+        "nearDuplicateTransitions": 0
+      },
+      "warnings": []
+    },
+    {
+      "row": 8,
+      "state": "review",
+      "frameCount": 6,
+      "loop": true,
+      "frames": [
+        {
+          "empty": false,
+          "bbox": [
+            16,
+            5,
+            175,
+            203
+          ],
+          "area": 15786,
+          "center": [
+            71.797,
+            106.924
+          ],
+          "baseline": 202,
+          "width": 159,
+          "height": 198
+        },
+        {
+          "empty": false,
+          "bbox": [
+            5,
+            24,
+            187,
+            184
+          ],
+          "area": 14730,
+          "center": [
+            75.226,
+            100.253
+          ],
+          "baseline": 183,
+          "width": 182,
+          "height": 160
+        },
+        {
+          "empty": false,
+          "bbox": [
+            5,
+            5,
+            186,
+            203
+          ],
+          "area": 17081,
+          "center": [
+            70.746,
+            103.736
+          ],
+          "baseline": 202,
+          "width": 181,
+          "height": 198
+        },
+        {
+          "empty": false,
+          "bbox": [
+            5,
+            24,
+            187,
+            184
+          ],
+          "area": 15617,
+          "center": [
+            74.371,
+            97.635
+          ],
+          "baseline": 183,
+          "width": 182,
+          "height": 160
+        },
+        {
+          "empty": false,
+          "bbox": [
+            5,
+            5,
+            187,
+            203
+          ],
+          "area": 16412,
+          "center": [
+            75.366,
+            106.085
+          ],
+          "baseline": 202,
+          "width": 182,
+          "height": 198
+        },
+        {
+          "empty": false,
+          "bbox": [
+            21,
+            5,
+            171,
+            203
+          ],
+          "area": 14599,
+          "center": [
+            73.077,
+            107.703
+          ],
+          "baseline": 202,
+          "width": 150,
+          "height": 198
+        }
+      ],
+      "transitions": [
+        {
+          "alphaDiffPixels": 8174,
+          "rgbaDiffPixels": 19408,
+          "centerDelta": 7.501,
+          "areaRatio": 1.0717,
+          "baselineDelta": 19,
+          "nearDuplicate": false,
+          "from": 0,
+          "to": 1,
+          "loopClosure": false
+        },
+        {
+          "alphaDiffPixels": 6489,
+          "rgbaDiffPixels": 18935,
+          "centerDelta": 5.675,
+          "areaRatio": 1.1596,
+          "baselineDelta": 19,
+          "nearDuplicate": false,
+          "from": 1,
+          "to": 2,
+          "loopClosure": false
+        },
+        {
+          "alphaDiffPixels": 6772,
+          "rgbaDiffPixels": 19325,
+          "centerDelta": 7.097,
+          "areaRatio": 1.0937,
+          "baselineDelta": 19,
+          "nearDuplicate": false,
+          "from": 2,
+          "to": 3,
+          "loopClosure": false
+        },
+        {
+          "alphaDiffPixels": 6885,
+          "rgbaDiffPixels": 19142,
+          "centerDelta": 8.508,
+          "areaRatio": 1.0509,
+          "baselineDelta": 19,
+          "nearDuplicate": false,
+          "from": 3,
+          "to": 4,
+          "loopClosure": false
+        },
+        {
+          "alphaDiffPixels": 5993,
+          "rgbaDiffPixels": 17891,
+          "centerDelta": 2.803,
+          "areaRatio": 1.1242,
+          "baselineDelta": 0,
+          "nearDuplicate": false,
+          "from": 4,
+          "to": 5,
+          "loopClosure": false
+        },
+        {
+          "alphaDiffPixels": 2857,
+          "rgbaDiffPixels": 15031,
+          "centerDelta": 1.498,
+          "areaRatio": 1.0813,
+          "baselineDelta": 0,
+          "nearDuplicate": false,
+          "from": 5,
+          "to": 0,
+          "loopClosure": true
+        }
+      ],
+      "summary": {
+        "maxCenterDelta": 8.508,
+        "maxAlphaDiffPixels": 8174,
+        "maxBaselineDelta": 19,
+        "nearDuplicateTransitions": 0
+      },
+      "warnings": [
+        "0->1 baseline shift is high (19px)",
+        "1->2 baseline shift is high (19px)",
+        "2->3 baseline shift is high (19px)",
+        "3->4 baseline shift is high (19px)"
+      ]
+    },
+    {
+      "row": 9,
+      "state": "look-000-157.5",
+      "frameCount": 8,
+      "loop": false,
+      "frames": [
+        {
+          "empty": false,
+          "bbox": [
+            33,
+            12,
+            159,
+            197
+          ],
+          "area": 11762,
+          "center": [
+            72.93,
+            107.575
+          ],
+          "baseline": 196,
+          "width": 126,
+          "height": 185
+        },
+        {
+          "empty": false,
+          "bbox": [
+            31,
+            13,
+            163,
+            197
+          ],
+          "area": 12400,
+          "center": [
+            75.149,
+            110.625
+          ],
+          "baseline": 196,
+          "width": 132,
+          "height": 184
+        },
+        {
+          "empty": false,
+          "bbox": [
+            29,
+            11,
+            165,
+            197
+          ],
+          "area": 12772,
+          "center": [
+            75.378,
+            110.917
+          ],
+          "baseline": 196,
+          "width": 136,
+          "height": 186
+        },
+        {
+          "empty": false,
+          "bbox": [
+            29,
+            16,
+            163,
+            197
+          ],
+          "area": 12151,
+          "center": [
+            77.139,
+            112.651
+          ],
+          "baseline": 196,
+          "width": 134,
+          "height": 181
+        },
+        {
+          "empty": false,
+          "bbox": [
+            27,
+            19,
+            163,
+            197
+          ],
+          "area": 12554,
+          "center": [
+            80.172,
+            112.746
+          ],
+          "baseline": 196,
+          "width": 136,
+          "height": 178
+        },
+        {
+          "empty": false,
+          "bbox": [
+            30,
+            38,
+            166,
+            197
+          ],
+          "area": 11857,
+          "center": [
+            82.043,
+            116.794
+          ],
+          "baseline": 196,
+          "width": 136,
+          "height": 159
+        },
+        {
+          "empty": false,
+          "bbox": [
+            36,
+            64,
+            167,
+            197
+          ],
+          "area": 10038,
+          "center": [
+            83.834,
+            126.484
+          ],
+          "baseline": 196,
+          "width": 131,
+          "height": 133
+        },
+        {
+          "empty": false,
+          "bbox": [
+            37,
+            67,
+            153,
+            197
+          ],
+          "area": 9436,
+          "center": [
+            80.537,
+            130.048
+          ],
+          "baseline": 196,
+          "width": 116,
+          "height": 130
+        }
+      ],
+      "transitions": [
+        {
+          "alphaDiffPixels": 2318,
+          "rgbaDiffPixels": 11927,
+          "centerDelta": 3.772,
+          "areaRatio": 1.0542,
+          "baselineDelta": 0,
+          "nearDuplicate": false,
+          "from": 0,
+          "to": 1,
+          "loopClosure": false
+        },
+        {
+          "alphaDiffPixels": 1260,
+          "rgbaDiffPixels": 10249,
+          "centerDelta": 0.371,
+          "areaRatio": 1.03,
+          "baselineDelta": 0,
+          "nearDuplicate": false,
+          "from": 1,
+          "to": 2,
+          "loopClosure": false
+        },
+        {
+          "alphaDiffPixels": 2177,
+          "rgbaDiffPixels": 11707,
+          "centerDelta": 2.471,
+          "areaRatio": 1.0511,
+          "baselineDelta": 0,
+          "nearDuplicate": false,
+          "from": 2,
+          "to": 3,
+          "loopClosure": false
+        },
+        {
+          "alphaDiffPixels": 2075,
+          "rgbaDiffPixels": 11000,
+          "centerDelta": 3.034,
+          "areaRatio": 1.0332,
+          "baselineDelta": 0,
+          "nearDuplicate": false,
+          "from": 3,
+          "to": 4,
+          "loopClosure": false
+        },
+        {
+          "alphaDiffPixels": 1815,
+          "rgbaDiffPixels": 11034,
+          "centerDelta": 4.459,
+          "areaRatio": 1.0588,
+          "baselineDelta": 0,
+          "nearDuplicate": false,
+          "from": 4,
+          "to": 5,
+          "loopClosure": false
+        },
+        {
+          "alphaDiffPixels": 3501,
+          "rgbaDiffPixels": 12174,
+          "centerDelta": 9.854,
+          "areaRatio": 1.1812,
+          "baselineDelta": 0,
+          "nearDuplicate": false,
+          "from": 5,
+          "to": 6,
+          "loopClosure": false
+        },
+        {
+          "alphaDiffPixels": 2462,
+          "rgbaDiffPixels": 9511,
+          "centerDelta": 4.855,
+          "areaRatio": 1.0638,
+          "baselineDelta": 0,
+          "nearDuplicate": false,
+          "from": 6,
+          "to": 7,
+          "loopClosure": false
+        }
+      ],
+      "summary": {
+        "maxCenterDelta": 9.854,
+        "maxAlphaDiffPixels": 3501,
+        "maxBaselineDelta": 0,
+        "nearDuplicateTransitions": 0
+      },
+      "warnings": [
+        "5->6 center shift is high (9.854px)"
+      ]
+    },
+    {
+      "row": 10,
+      "state": "look-180-337.5",
+      "frameCount": 8,
+      "loop": false,
+      "frames": [
+        {
+          "empty": false,
+          "bbox": [
+            34,
+            64,
+            161,
+            197
+          ],
+          "area": 9717,
+          "center": [
+            76.288,
+            132.701
+          ],
+          "baseline": 196,
+          "width": 127,
+          "height": 133
+        },
+        {
+          "empty": false,
+          "bbox": [
+            28,
+            52,
+            158,
+            197
+          ],
+          "area": 10402,
+          "center": [
+            73.373,
+            126.684
+          ],
+          "baseline": 196,
+          "width": 130,
+          "height": 145
+        },
+        {
+          "empty": false,
+          "bbox": [
+            29,
+            30,
+            157,
+            197
+          ],
+          "area": 11446,
+          "center": [
+            75.035,
+            119.307
+          ],
+          "baseline": 196,
+          "width": 128,
+          "height": 167
+        },
+        {
+          "empty": false,
+          "bbox": [
+            31,
+            16,
+            157,
+            197
+          ],
+          "area": 11818,
+          "center": [
+            74.781,
+            114.888
+          ],
+          "baseline": 196,
+          "width": 126,
+          "height": 181
+        },
+        {
+          "empty": false,
+          "bbox": [
+            26,
+            17,
+            160,
+            197
+          ],
+          "area": 11870,
+          "center": [
+            75.451,
+            115.841
+          ],
+          "baseline": 196,
+          "width": 134,
+          "height": 180
+        },
+        {
+          "empty": false,
+          "bbox": [
+            29,
+            16,
+            157,
+            197
+          ],
+          "area": 11544,
+          "center": [
+            76.306,
+            114.699
+          ],
+          "baseline": 196,
+          "width": 128,
+          "height": 181
+        },
+        {
+          "empty": false,
+          "bbox": [
+            34,
+            15,
+            156,
+            197
+          ],
+          "area": 11231,
+          "center": [
+            77.53,
+            114.544
+          ],
+          "baseline": 196,
+          "width": 122,
+          "height": 182
+        },
+        {
+          "empty": false,
+          "bbox": [
+            35,
+            16,
+            148,
+            197
+          ],
+          "area": 10838,
+          "center": [
+            72.16,
+            110.231
+          ],
+          "baseline": 196,
+          "width": 113,
+          "height": 181
+        }
+      ],
+      "transitions": [
+        {
+          "alphaDiffPixels": 1683,
+          "rgbaDiffPixels": 10247,
+          "centerDelta": 6.686,
+          "areaRatio": 1.0705,
+          "baselineDelta": 0,
+          "nearDuplicate": false,
+          "from": 0,
+          "to": 1,
+          "loopClosure": false
+        },
+        {
+          "alphaDiffPixels": 3422,
+          "rgbaDiffPixels": 12405,
+          "centerDelta": 7.562,
+          "areaRatio": 1.1004,
+          "baselineDelta": 0,
+          "nearDuplicate": false,
+          "from": 1,
+          "to": 2,
+          "loopClosure": false
+        },
+        {
+          "alphaDiffPixels": 1200,
+          "rgbaDiffPixels": 10270,
+          "centerDelta": 4.426,
+          "areaRatio": 1.0325,
+          "baselineDelta": 0,
+          "nearDuplicate": false,
+          "from": 2,
+          "to": 3,
+          "loopClosure": false
+        },
+        {
+          "alphaDiffPixels": 1778,
+          "rgbaDiffPixels": 11089,
+          "centerDelta": 1.165,
+          "areaRatio": 1.0044,
+          "baselineDelta": 0,
+          "nearDuplicate": false,
+          "from": 3,
+          "to": 4,
+          "loopClosure": false
+        },
+        {
+          "alphaDiffPixels": 1672,
+          "rgbaDiffPixels": 10875,
+          "centerDelta": 1.427,
+          "areaRatio": 1.0282,
+          "baselineDelta": 0,
+          "nearDuplicate": false,
+          "from": 4,
+          "to": 5,
+          "loopClosure": false
+        },
+        {
+          "alphaDiffPixels": 1931,
+          "rgbaDiffPixels": 10927,
+          "centerDelta": 1.234,
+          "areaRatio": 1.0279,
+          "baselineDelta": 0,
+          "nearDuplicate": false,
+          "from": 5,
+          "to": 6,
+          "loopClosure": false
+        },
+        {
+          "alphaDiffPixels": 3525,
+          "rgbaDiffPixels": 12594,
+          "centerDelta": 6.888,
+          "areaRatio": 1.0363,
+          "baselineDelta": 0,
+          "nearDuplicate": false,
+          "from": 6,
+          "to": 7,
+          "loopClosure": false
+        }
+      ],
+      "summary": {
+        "maxCenterDelta": 7.562,
+        "maxAlphaDiffPixels": 3525,
+        "maxBaselineDelta": 0,
+        "nearDuplicateTransitions": 0
+      },
+      "warnings": []
+    }
+  ],
+  "lookLoop": {
+    "frameCount": 16,
+    "transitions": [
+      {
+        "alphaDiffPixels": 2318,
+        "rgbaDiffPixels": 11927,
+        "centerDelta": 3.772,
+        "areaRatio": 1.0542,
+        "baselineDelta": 0,
+        "nearDuplicate": false,
+        "from": 0,
+        "to": 1,
+        "loopClosure": false
+      },
+      {
+        "alphaDiffPixels": 1260,
+        "rgbaDiffPixels": 10249,
+        "centerDelta": 0.371,
+        "areaRatio": 1.03,
+        "baselineDelta": 0,
+        "nearDuplicate": false,
+        "from": 1,
+        "to": 2,
+        "loopClosure": false
+      },
+      {
+        "alphaDiffPixels": 2177,
+        "rgbaDiffPixels": 11707,
+        "centerDelta": 2.471,
+        "areaRatio": 1.0511,
+        "baselineDelta": 0,
+        "nearDuplicate": false,
+        "from": 2,
+        "to": 3,
+        "loopClosure": false
+      },
+      {
+        "alphaDiffPixels": 2075,
+        "rgbaDiffPixels": 11000,
+        "centerDelta": 3.034,
+        "areaRatio": 1.0332,
+        "baselineDelta": 0,
+        "nearDuplicate": false,
+        "from": 3,
+        "to": 4,
+        "loopClosure": false
+      },
+      {
+        "alphaDiffPixels": 1815,
+        "rgbaDiffPixels": 11034,
+        "centerDelta": 4.459,
+        "areaRatio": 1.0588,
+        "baselineDelta": 0,
+        "nearDuplicate": false,
+        "from": 4,
+        "to": 5,
+        "loopClosure": false
+      },
+      {
+        "alphaDiffPixels": 3501,
+        "rgbaDiffPixels": 12174,
+        "centerDelta": 9.854,
+        "areaRatio": 1.1812,
+        "baselineDelta": 0,
+        "nearDuplicate": false,
+        "from": 5,
+        "to": 6,
+        "loopClosure": false
+      },
+      {
+        "alphaDiffPixels": 2462,
+        "rgbaDiffPixels": 9511,
+        "centerDelta": 4.855,
+        "areaRatio": 1.0638,
+        "baselineDelta": 0,
+        "nearDuplicate": false,
+        "from": 6,
+        "to": 7,
+        "loopClosure": false
+      },
+      {
+        "alphaDiffPixels": 2415,
+        "rgbaDiffPixels": 10386,
+        "centerDelta": 5.009,
+        "areaRatio": 1.0298,
+        "baselineDelta": 0,
+        "nearDuplicate": false,
+        "from": 7,
+        "to": 8,
+        "loopClosure": false
+      },
+      {
+        "alphaDiffPixels": 1683,
+        "rgbaDiffPixels": 10247,
+        "centerDelta": 6.686,
+        "areaRatio": 1.0705,
+        "baselineDelta": 0,
+        "nearDuplicate": false,
+        "from": 8,
+        "to": 9,
+        "loopClosure": false
+      },
+      {
+        "alphaDiffPixels": 3422,
+        "rgbaDiffPixels": 12405,
+        "centerDelta": 7.562,
+        "areaRatio": 1.1004,
+        "baselineDelta": 0,
+        "nearDuplicate": false,
+        "from": 9,
+        "to": 10,
+        "loopClosure": false
+      },
+      {
+        "alphaDiffPixels": 1200,
+        "rgbaDiffPixels": 10270,
+        "centerDelta": 4.426,
+        "areaRatio": 1.0325,
+        "baselineDelta": 0,
+        "nearDuplicate": false,
+        "from": 10,
+        "to": 11,
+        "loopClosure": false
+      },
+      {
+        "alphaDiffPixels": 1778,
+        "rgbaDiffPixels": 11089,
+        "centerDelta": 1.165,
+        "areaRatio": 1.0044,
+        "baselineDelta": 0,
+        "nearDuplicate": false,
+        "from": 11,
+        "to": 12,
+        "loopClosure": false
+      },
+      {
+        "alphaDiffPixels": 1672,
+        "rgbaDiffPixels": 10875,
+        "centerDelta": 1.427,
+        "areaRatio": 1.0282,
+        "baselineDelta": 0,
+        "nearDuplicate": false,
+        "from": 12,
+        "to": 13,
+        "loopClosure": false
+      },
+      {
+        "alphaDiffPixels": 1931,
+        "rgbaDiffPixels": 10927,
+        "centerDelta": 1.234,
+        "areaRatio": 1.0279,
+        "baselineDelta": 0,
+        "nearDuplicate": false,
+        "from": 13,
+        "to": 14,
+        "loopClosure": false
+      },
+      {
+        "alphaDiffPixels": 3525,
+        "rgbaDiffPixels": 12594,
+        "centerDelta": 6.888,
+        "areaRatio": 1.0363,
+        "baselineDelta": 0,
+        "nearDuplicate": false,
+        "from": 14,
+        "to": 15,
+        "loopClosure": false
+      },
+      {
+        "alphaDiffPixels": 4748,
+        "rgbaDiffPixels": 13126,
+        "centerDelta": 2.765,
+        "areaRatio": 1.0853,
+        "baselineDelta": 0,
+        "nearDuplicate": false,
+        "from": 15,
+        "to": 0,
+        "loopClosure": true
+      }
+    ],
+    "maxCenterDelta": 9.854,
+    "maxBaselineDelta": 0,
+    "maxAlphaDiffPixels": 4748
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "ok": true,
+  "status": "pass-with-reviewed-continuity-warnings",
+  "petId": "miaomiao",
+  "displayName": "淼淼",
+  "spriteVersionNumber": 2,
+  "delivery": {
+    "spritesheet": "miaomiao/spritesheet.webp",
+    "petJson": "miaomiao/pet.json",
+    "petJsonChanged": false,
+    "sha256": "681DD5AB545255E35C9F3EA5BF005843ECC346CEF2315765AC272510443302F2"
+  },
+  "motionRefinement": {
+    "state": "running",
+    "sourceOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "selectedOrder": [
+      0,
+      1,
+      3,
+      4,
+      5,
+      2
+    ],
+    "sourceClosedLoopCost": 2.66,
+    "selectedClosedLoopCost": 2.399,
+    "reductionPercent": 9.8,
+    "visualResult": "The active-task cycle now follows a coherent raise-paw, inspect, lower-to-crouch, and return arc with fewer vertical backtracks."
+  },
+  "identity": {
+    "preserved": true,
+    "standardUsedCellsWithExactAlphaGeometry": "57/57",
+    "lookCellsWithExactRegisteredAlphaGeometry": "16/16",
+    "maxLookRegistrationShiftPixels": 1,
+    "audit": "miaomiao/qa/after/identity-audit.json"
+  },
+  "lookRows": {
+    "decision": "preserve-original-approved-rows",
+    "reason": "Two complete-row generated repair attempts were rejected for wrong-quadrant semantics, scale/pose discontinuity, or rendering drift.",
+    "repairGate": "miaomiao/qa/after/row9-repair-gate.json"
+  },
+  "validation": {
+    "report": "miaomiao/qa/after/validation.json",
+    "format": "WEBP",
+    "mode": "RGBA",
+    "width": 1536,
+    "height": 2288,
+    "columns": 8,
+    "rows": 11,
+    "transparentRgbResiduePixels": 0,
+    "errors": [],
+    "warnings": []
+  },
+  "qa": {
+    "chromaDespill": "miaomiao/qa/after/chroma-despill.json",
+    "contactSheet": "miaomiao/qa/after/contact-sheet.png",
+    "directionSheet": "miaomiao/qa/after/look-directions.png",
+    "directionSemantics": "miaomiao/qa/after/direction-semantics.json",
+    "lookContinuity": "miaomiao/qa/after/look-continuity.json",
+    "review": "miaomiao/qa/after/review.json",
+    "previews": "miaomiao/qa/after/previews/"
+  },
+  "reviewedWarnings": [
+    "135-to-157.5 center shift is 10.5 pixels.",
+    "157.5-to-180 remains a local continuity outlier with a 9.5-pixel center shift and 1.15 area ratio.",
+    "337.5-to-000 remains a local loop-boundary difference outlier.",
+    "157.5 has a subtle rather than strong screen-right cue, but no direction has a hard semantic failure."
+  ],
+  "qaScope": "Labeled normal-size visual QA, deterministic validation, identity audit, motion preview review, and continuity diagnostics completed here. Blind direction review and final independent package QA remain assigned to the parent agent."
+}

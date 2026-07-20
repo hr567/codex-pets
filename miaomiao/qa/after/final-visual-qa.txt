@@ -1,0 +1,6 @@
+visual_qa=pass
+qa_note=11行完整无裁切、残影或烘焙边框，猫的脸纹、金色眼睛、灰白橙毛色、颈胸毛及标志性斑纹一致；running新序[0,1,3,4,5,2]闭环更顺，无倒放或瞬移。
+direction_semantics=000 pass(up);022.5 pass(up-right);045 pass(up-right);067.5 pass(up-right);090 pass(right);112.5 pass(down-right);135 pass(down-right);157.5 warning(有标签135→180弧确认down-right，水平提示较弱);180 pass(down);202.5 pass(down-left);225 pass(down-left);247.5 warning(有标签225→270弧确认down-left，垂直提示较弱);270 pass(left);292.5 warning(有标签270→315弧确认up-left，垂直提示较弱);315 pass(up-left);337.5 pass(up-left)
+review_warnings=接受157.5水平及247.5/292.5垂直盲测ambiguous；135→157.5、157.5→180及337.5→000连续性指标告警在正常尺寸下未见明显跳变、缩放突变、身份漂移或方向反转。
+repair_rows=none
+repair_notes=none

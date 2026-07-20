@@ -1,0 +1,29 @@
+{
+  "accepted": false,
+  "fallback": "preserve original approved look rows 9-10",
+  "attempt1": {
+    "verdict": "major-fail",
+    "reasons": [
+      "157.5 remained visibly shrunken/crouched before fixed 180",
+      "157.5-to-180 area ratio worsened to 1.158",
+      "row-9-to-row-10 rendering/marking seam remained visible"
+    ]
+  },
+  "attempt2": {
+    "verdict": "major-fail",
+    "metrics": {
+      "medianDiffPixels": 1133.5,
+      "135-to-157.5-centerDelta": 11.5,
+      "157.5-to-180-centerDelta": 5.523,
+      "157.5-to-180-areaRatio": 1.113,
+      "337.5-to-000-diffPixels": 2365
+    },
+    "reasons": [
+      "157.5 visibly points into the screen-left/down quadrant instead of required screen-right/down",
+      "135-to-157.5 remains a conspicuous center and pose jump",
+      "the generated row does not preserve the original approved rendering closely enough across the fixed row-10 boundary"
+    ]
+  },
+  "decision": "Neither complete-row repair is packaging eligible. Preserve the original identity-locked look rows and ship only the independently validated running timing refinement."
+}
+

@@ -1,0 +1,42 @@
+{
+  "ok": true,
+  "auditBasis": "The accepted refinement reorders exact source frames in the running state and applies one deterministic chroma-edge despill. It does not draw, interpolate, resample, or replace Miaomiao's character art.",
+  "atlas": {
+    "width": 1536,
+    "height": 2288,
+    "cellWidth": 192,
+    "cellHeight": 208,
+    "spriteVersionNumber": 2
+  },
+  "standardRows": {
+    "usedCellCount": 57,
+    "alphaExactCellCount": 57,
+    "maxAlphaXorPixels": 0,
+    "runningSourceOrder": [
+      0,
+      1,
+      3,
+      4,
+      5,
+      2
+    ],
+    "preDespillRgbaPixelChanges": 0,
+    "postDespillVisibleRgbChangedPixels": 68031,
+    "postDespillRgbChangeReason": "Expected deterministic edge-color cleanup from the single final despill pass; alpha geometry remains exact."
+  },
+  "lookRows": {
+    "decision": "The original approved direction cells were preserved after both generated repair attempts failed the semantic or identity gate.",
+    "cellCount": 16,
+    "registeredAlphaExactCellCount": 16,
+    "maxAbsoluteRegistrationShiftPixels": 1,
+    "minAreaRatio": 1.0,
+    "maxAreaRatio": 1.0,
+    "note": "Every look-cell alpha mask is exact after its deterministic 0-or-1-pixel horizontal registration; there is no scale or silhouette change."
+  },
+  "identityFeaturesPreserved": [
+    "asymmetric gray, orange, and white calico markings",
+    "large white chest ruff",
+    "long smoke-gray, orange-brown feathered tail",
+    "Maine Coon proportions and facial identity"
+  ]
+}
