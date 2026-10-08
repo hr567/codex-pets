@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import type { Dispatch, SetStateAction } from 'react';
 
-import type { PreferenceDefinition } from '../app/preferences';
+import type { PreferenceDefinition } from '../lib/preferences';
 
 type JsonPrimitive = boolean | number | string | null;
 type JsonValue = JsonPrimitive | readonly JsonValue[] | { readonly [key: string]: JsonValue };

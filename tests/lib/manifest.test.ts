@@ -3,7 +3,7 @@ import { describe, expect, it } from 'vitest';
 import {
   normalizeSpritesheetPath,
   parsePetManifest,
-} from '../../src/domain/pet/manifest';
+} from '../../src/lib/manifest';
 
 const VALID_MANIFEST = {
   id: 'renne',

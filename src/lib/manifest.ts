@@ -1,5 +1,5 @@
-import { isSpriteVersionNumber } from './spriteFormat';
-import type { SpriteVersionNumber } from './spriteFormat';
+import { isSpriteVersionNumber } from './sprite';
+import type { SpriteVersionNumber } from './sprite';
 
 declare const safeRelativePathBrand: unique symbol;
 

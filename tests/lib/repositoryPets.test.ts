@@ -3,7 +3,7 @@ import { describe, expect, it } from 'vitest';
 import {
   DEFAULT_REPOSITORY_PET,
   REPOSITORY_PET_PACKAGES,
-} from '../../src/app/repositoryPetPackages';
+} from '../../src/lib/repositoryPets';
 
 describe('repositoryPetPackages', () => {
   it('registers the four repository folders once and in display order', () => {

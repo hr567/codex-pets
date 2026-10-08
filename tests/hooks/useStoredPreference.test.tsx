@@ -3,7 +3,7 @@
 import { act, cleanup, renderHook } from '@testing-library/react';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 
-import type { PreferenceDefinition } from '../../src/app/preferences';
+import type { PreferenceDefinition } from '../../src/lib/preferences';
 import { useStoredPreference } from '../../src/hooks/useStoredPreference';
 
 type TestTheme = 'light' | 'dark';

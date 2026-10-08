@@ -1,8 +1,8 @@
 # Codex Pets
 
 This repository contains four Codex Pet packages and a browser-only previewer built
-with TypeScript, React, [Astryx](https://astryx.atmeta.com/), and
-[StyleX](https://stylexjs.com/). Open the published preview at
+with TypeScript, React, and [Cloudflare Kumo](https://github.com/cloudflare/kumo).
+Open the published preview at
 <https://hr567.github.io/codex-pets/>.
 
 The preview starts with Renne and lets you switch among every Pet stored in this
@@ -53,8 +53,9 @@ are never sent to a server. After previewing a local package, choose any reposit
 Pet to switch back.
 
 The preview validates packages, supports system/light/dark themes, provides
-keyboard-friendly animation selection and adjustable playback, and automatically
-starts playback after every successful load.
+keyboard-friendly animation selection and adjustable playback speed. Actions
+always play automatically once the sprite sheet is ready, including after
+switching actions or packages.
 
 Supported contracts:
 
@@ -68,8 +69,10 @@ with `192 × 208` cells, for a final size of `1536 × 2288`.
 
 - `renne/`, `blackmi/`, `miaomiao/`, and `mango/` each contain only `pet.json` and
   `spritesheet.webp` for that Pet.
-- `src/` contains the generic React preview, package loader, repository Pet
-  registry, Astryx integration, and StyleX styles.
+- `src/` contains the React preview, package loader, repository Pet registry,
+  and Kumo components. Kumo provides all component styles; Tailwind utilities
+  arrange the page and preserve crisp canvas scaling. `src/index.css` contains the official library imports
+  and source directive, with no custom CSS rules or theme overrides.
 - `tests/` covers manifest and atlas validation, state transitions, cancellation,
   uploads, resource cleanup, and package switching.
 - `.github/workflows/pages.yml` checks and publishes the preview from `main`.
@@ -89,19 +92,15 @@ with `192 × 208` cells, for a final size of `1536 × 2288`.
 
 ## Source architecture
 
-- `src/domain/pet/` is the browser-independent pet domain: sanitized manifests,
-  sprite format contracts, animation layouts, frame coordinates, and atlas rules.
-- `src/adapters/browser/` owns browser APIs such as image decoding, object URLs,
-  canvas drawing, and downloads.
-- `src/features/pet-package/` owns the package-loading state machine, cancellation,
-  and resource lifecycle.
-- `src/features/preview/` owns animation playback state and timing.
-- `src/app/` is the composition root, repository Pet registry, application
-  preferences, and document metadata.
-- `src/components/` contains presentation components; Inspector subsections are
-  split by responsibility.
-- `tests/` covers domain validation, state reducers, storage fallback, upload URL
-  cleanup, cancellation, and package replacement/unmount behavior.
+- `src/App.tsx` composes the page, settings, package details, and theme.
+- `src/components/` contains only the package picker and animation stage.
+- `src/hooks/` contains package loading, playback, and stored preferences.
+  Loading and playback each keep their state in one hook, without separate
+  reducers or controller layers. Animation ticks update only the stage.
+- `src/lib/` contains manifest validation, sprite layouts and timing, canvas
+  drawing, package loading, the repository Pet registry, and preference values.
+- `tests/` mirrors these folders and covers validation, all animations, playback
+  timing, storage fallback, uploads, cancellation, and resource cleanup.
 
 Browser, Node configuration, and tests use separate TypeScript projects:
 `tsconfig.app.json`, `tsconfig.node.json`, and `tsconfig.test.json`.

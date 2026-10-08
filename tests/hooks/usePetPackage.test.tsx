@@ -6,14 +6,14 @@ import { afterEach, describe, expect, it, vi } from 'vitest';
 import type {
   BundledPetPackageDescriptor,
   LoadedPetPackage,
-} from '../../src/adapters/browser/petPackageLoader';
-import { parsePetManifest } from '../../src/domain/pet/manifest';
+} from '../../src/lib/packageLoader';
+import { parsePetManifest } from '../../src/lib/manifest';
 import {
-  usePetPackageController,
-} from '../../src/features/pet-package/usePetPackageController';
+  usePetPackage,
+} from '../../src/hooks/usePetPackage';
 import type {
   PetPackageLoaders,
-} from '../../src/features/pet-package/usePetPackageController';
+} from '../../src/hooks/usePetPackage';
 
 interface Deferred<T> {
   readonly promise: Promise<T>;
@@ -68,7 +68,7 @@ afterEach(() => {
   vi.restoreAllMocks();
 });
 
-describe('usePetPackageController', () => {
+describe('usePetPackage', () => {
   it('aborts a pending request and disposes a late result on unmount', async () => {
     const deferred = createDeferred<LoadedPetPackage>();
     let requestSignal: AbortSignal | undefined;
@@ -82,7 +82,7 @@ describe('usePetPackageController', () => {
     const latePackage = createLoadedPackage('bundled');
     const descriptor = createBundledDescriptor();
     const { unmount } = renderHook(() => (
-      usePetPackageController(descriptor, loaders)
+      usePetPackage(descriptor, loaders)
     ));
 
     await waitFor(() => {
@@ -106,7 +106,7 @@ describe('usePetPackageController', () => {
     };
     const descriptor = createBundledDescriptor();
     const { result, unmount } = renderHook(() => (
-      usePetPackageController(descriptor, loaders)
+      usePetPackage(descriptor, loaders)
     ));
 
     await waitFor(() => {
@@ -134,7 +134,7 @@ describe('usePetPackageController', () => {
       loadUploaded: vi.fn(() => Promise.reject(new Error('Not used'))),
     };
     const { result, unmount } = renderHook(() => (
-      usePetPackageController(initialDescriptor, loaders)
+      usePetPackage(initialDescriptor, loaders)
     ));
 
     await waitFor(() => {
@@ -187,7 +187,7 @@ describe('usePetPackageController', () => {
       loadUploaded: vi.fn(() => Promise.reject(new Error('Not used'))),
     };
     const { result, unmount } = renderHook(() => (
-      usePetPackageController(initialDescriptor, loaders)
+      usePetPackage(initialDescriptor, loaders)
     ));
 
     await waitFor(() => {
@@ -230,7 +230,7 @@ describe('usePetPackageController', () => {
       loadUploaded: vi.fn(() => Promise.reject(new Error('Not used'))),
     };
     const { result, unmount } = renderHook(() => (
-      usePetPackageController(initialDescriptor, loaders)
+      usePetPackage(initialDescriptor, loaders)
     ));
 
     await waitFor(() => {
@@ -261,15 +261,19 @@ describe('usePetPackageController', () => {
     unmount();
   });
 
-  it('keeps a successful preview when an upload fails', async () => {
+  it('keeps the preview through failed and pending uploads, then clears errors on success', async () => {
     const descriptor = createBundledDescriptor('renne');
     const bundledPackage = createLoadedPackage('bundled', descriptor);
+    const localPackage = createLoadedPackage('local');
+    const upload = createDeferred<LoadedPetPackage>();
     const loaders: PetPackageLoaders = {
       loadBundled: vi.fn(() => Promise.resolve(bundledPackage)),
-      loadUploaded: vi.fn(() => Promise.reject(new Error('Invalid local package'))),
+      loadUploaded: vi.fn()
+        .mockRejectedValueOnce(new Error('Invalid local package'))
+        .mockReturnValueOnce(upload.promise),
     };
     const { result, unmount } = renderHook(() => (
-      usePetPackageController(descriptor, loaders)
+      usePetPackage(descriptor, loaders)
     ));
 
     await waitFor(() => {
@@ -289,7 +293,106 @@ describe('usePetPackageController', () => {
     });
     expect(bundledPackage.dispose).not.toHaveBeenCalled();
 
+    let uploadRequest: Promise<void> | undefined;
+    act(() => {
+      uploadRequest = result.current.selectFiles([]);
+    });
+    expect(result.current.state.preview).toEqual({
+      status: 'ready',
+      petPackage: bundledPackage,
+    });
+    expect(result.current.state.upload).toEqual({ status: 'validating' });
+    expect(bundledPackage.dispose).not.toHaveBeenCalled();
+
+    await act(async () => {
+      upload.resolve(localPackage);
+      await uploadRequest;
+    });
+    expect(result.current.state).toEqual({
+      preview: { status: 'ready', petPackage: localPackage },
+      upload: { status: 'idle' },
+    });
+    expect(bundledPackage.dispose).toHaveBeenCalledOnce();
+
     unmount();
+    expect(localPackage.dispose).toHaveBeenCalledOnce();
+  });
+
+  it('exits loading when a failed upload interrupts the initial repository request', async () => {
+    const descriptor = createBundledDescriptor();
+    const repositoryLoad = createDeferred<LoadedPetPackage>();
+    const latePackage = createLoadedPackage('bundled', descriptor);
+    let repositorySignal: AbortSignal | undefined;
+    const loaders: PetPackageLoaders = {
+      loadBundled: vi.fn((_descriptor: BundledPetPackageDescriptor, signal: AbortSignal) => {
+        repositorySignal = signal;
+        return repositoryLoad.promise;
+      }),
+      loadUploaded: vi.fn().mockRejectedValue(new Error('Invalid local package')),
+    };
+    const { result } = renderHook(() => usePetPackage(descriptor, loaders));
+
+    await act(async () => {
+      await result.current.selectFiles([]);
+    });
+    expect(repositorySignal?.aborted).toBe(true);
+    expect(result.current.state).toEqual({
+      preview: { status: 'error', petPackage: descriptor, message: 'Invalid local package' },
+      upload: { status: 'error', message: 'Invalid local package' },
+    });
+
+    await act(async () => {
+      repositoryLoad.resolve(latePackage);
+      await repositoryLoad.promise;
+    });
+    expect(latePackage.dispose).toHaveBeenCalledOnce();
+    expect(result.current.state.preview.status).toBe('error');
+  });
+
+  it('discards an uploaded package that finishes after a repository selection', async () => {
+    const initialDescriptor = createBundledDescriptor('renne');
+    const selectedDescriptor = createBundledDescriptor('blackmi');
+    const initialPackage = createLoadedPackage('bundled', initialDescriptor);
+    const selectedPackage = createLoadedPackage('bundled', selectedDescriptor);
+    const localPackage = createLoadedPackage('local');
+    const upload = createDeferred<LoadedPetPackage>();
+    let uploadSignal: AbortSignal | undefined;
+    const loaders: PetPackageLoaders = {
+      loadBundled: vi.fn()
+        .mockResolvedValueOnce(initialPackage)
+        .mockResolvedValueOnce(selectedPackage),
+      loadUploaded: vi.fn<PetPackageLoaders['loadUploaded']>((_files, signal) => {
+        uploadSignal = signal;
+        return upload.promise;
+      }),
+    };
+    const { result } = renderHook(() => usePetPackage(initialDescriptor, loaders));
+    await waitFor(() => {
+      expect(result.current.state.preview.status).toBe('ready');
+    });
+
+    let uploadRequest: Promise<void> | undefined;
+    act(() => {
+      uploadRequest = result.current.selectFiles([]);
+      result.current.selectRepositoryPet(selectedDescriptor);
+    });
+    expect(uploadSignal?.aborted).toBe(true);
+    await waitFor(() => {
+      expect(result.current.state.preview).toEqual({
+        status: 'ready',
+        petPackage: selectedPackage,
+      });
+    });
+
+    await act(async () => {
+      upload.resolve(localPackage);
+      await uploadRequest;
+    });
+    expect(localPackage.dispose).toHaveBeenCalledOnce();
+    expect(result.current.state).toEqual({
+      preview: { status: 'ready', petPackage: selectedPackage },
+      upload: { status: 'idle' },
+    });
   });
 
   it('switches from an uploaded package back to a repository pet', async () => {
@@ -305,7 +408,7 @@ describe('usePetPackageController', () => {
       loadUploaded: vi.fn(() => Promise.resolve(localPackage)),
     };
     const { result, unmount } = renderHook(() => (
-      usePetPackageController(initialDescriptor, loaders)
+      usePetPackage(initialDescriptor, loaders)
     ));
 
     await waitFor(() => {

@@ -8,7 +8,7 @@ import {
   getAnimationStates,
   getExpectedAtlas,
   getFrameSource,
-} from '../../src/domain/pet/spriteFormat';
+} from '../../src/lib/sprite';
 
 describe('sprite formats', () => {
   it('derives v1 and v2 atlas dimensions from the shared frame size', () => {

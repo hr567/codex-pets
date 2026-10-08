@@ -4,7 +4,7 @@ import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 
 import {
   loadUploadedPetPackage,
-} from '../../src/adapters/browser/petPackageLoader';
+} from '../../src/lib/packageLoader';
 
 const MANIFEST_JSON = JSON.stringify({
   id: 'local-pet',
@@ -32,8 +32,8 @@ class SuccessfulImage {
 }
 
 class PendingImage extends SuccessfulImage {
-  override set src(value: string) {
-    void value;
+  override set src(_value: string) {
+    // Leave the image pending until the test aborts the load.
   }
 }
 

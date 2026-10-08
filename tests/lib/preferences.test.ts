@@ -5,7 +5,7 @@ import {
   RENDERING_MODE_PREFERENCE,
   isPlaybackSpeed,
   isRenderingMode,
-} from '../../src/app/preferences';
+} from '../../src/lib/preferences';
 
 describe('preview preferences', () => {
   it('defaults to exact Codex timing and crisp rendering', () => {
