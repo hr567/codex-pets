@@ -67,15 +67,29 @@ with `192 × 208` cells, for a final size of `1536 × 2288`.
 
 ## Repository layout
 
-- `renne/`, `blackmi/`, `miaomiao/`, and `mango/` each contain only `pet.json` and
-  `spritesheet.webp` for that Pet.
+- `renne/`, `blackmi/`, `miaomiao/`, and `mango/` provide the `pet.json` and
+  `spritesheet.webp` files used by the page. Existing `qa/` subdirectories retain
+  historical text reports only.
 - `src/` contains the React preview, package loader, repository Pet registry,
   and Kumo components. Kumo provides all component styles; Tailwind utilities
   arrange the page and preserve crisp canvas scaling. `src/index.css` contains the official library imports
   and source directive, with no custom CSS rules or theme overrides.
 - `tests/` covers manifest and atlas validation, state transitions, cancellation,
   uploads, resource cleanup, and package switching.
+- `output/pet-image-audit-20261008/`, when present locally, retains historical
+  text reports, prompts, logs, and three QA helpers: `render_previews.py`,
+  `encoding/audit_lossless.py`, and `encoding/refine_normalized.py`. These helpers
+  are separate from the Vitest suite and require Pillow; the preview renderer
+  also uses the bundled pet scripts. Run the lossless audit before the refinement
+  helper to recreate its generated inputs.
 - `.github/workflows/pages.yml` checks and publishes the preview from `main`.
+
+Historical reports are preserved as written. Their references to comparison
+images, GIFs, original-image backups, and intermediate candidates describe past
+runs; those media files and one-off production scripts have been removed. The
+current four sprite sheets remain the page's assets. npm and `package-lock.json`
+are the supported install and CI path; local build output can be regenerated
+with `npm run build`.
 
 ## Included animation states
 
