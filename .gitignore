@@ -10,3 +10,8 @@ server.err
 qa/deps/
 qa/pillow_site/
 qa/regenerate/
+
+# Generated audit media.
+**/qa/**/*.png
+**/qa/**/*.gif
+**/qa/**/*.webp

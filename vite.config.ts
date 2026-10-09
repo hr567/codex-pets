@@ -1,19 +1,10 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
-import stylex from '@stylexjs/unplugin';
+import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
   base: './',
-  plugins: [
-    stylex.vite({
-      useCSSLayers: true,
-      unstable_moduleResolution: {
-        type: 'commonJS',
-        rootDir: import.meta.dirname,
-      },
-    }),
-    react(),
-  ],
+  plugins: [tailwindcss(), react()],
   build: {
     target: 'es2022',
     assetsInlineLimit: 0,

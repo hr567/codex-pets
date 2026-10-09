@@ -1,0 +1,7 @@
+# Resolve the current latest tags even when a release is less than a day old.
+minimumReleaseAge: 0
+
+# Keep a single-document lockfile readable by GitHub's dependency graph.
+# packageManager selects pnpm in CI; engines.pnpm enforces the local version.
+# https://github.com/dependabot/dependabot-core/issues/15904
+pmOnFail: ignore

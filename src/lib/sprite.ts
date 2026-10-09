@@ -1,24 +1,7 @@
 export const FRAME_WIDTH = 192;
 export const FRAME_HEIGHT = 208;
 
-const LOOK_DIRECTIONS = [
-  '000',
-  '022.5',
-  '045',
-  '067.5',
-  '090',
-  '112.5',
-  '135',
-  '157.5',
-  '180',
-  '202.5',
-  '225',
-  '247.5',
-  '270',
-  '292.5',
-  '315',
-  '337.5',
-] as const;
+const LOOK_FRAME_COUNT = 16;
 
 const SUPPORTED_SPRITE_VERSIONS = [1, 2] as const;
 
@@ -97,8 +80,8 @@ const ANIMATION_STATES = [
     layout: 'grid',
     startRow: 9,
     columns: 8,
-    frames: LOOK_DIRECTIONS.length,
-    frameDurationsMs: LOOK_DIRECTIONS.map(() => 160),
+    frames: LOOK_FRAME_COUNT,
+    frameDurationsMs: Array.from({ length: LOOK_FRAME_COUNT }, () => 160),
   },
 ] as const satisfies NonEmptyAnimationStateDefinitions;
 

@@ -1,5 +1,5 @@
-import { FRAME_HEIGHT, FRAME_WIDTH } from '../../domain/pet/spriteFormat';
-import type { FrameSource } from '../../domain/pet/spriteFormat';
+import { FRAME_HEIGHT, FRAME_WIDTH } from './sprite';
+import type { FrameSource } from './sprite';
 
 export interface SpriteFrameRenderingOptions {
   readonly imageSmoothingEnabled?: boolean;
@@ -14,7 +14,7 @@ export function drawSpriteFrame(
   const context = canvas.getContext('2d');
   if (!context) return;
 
-  context.clearRect(0, 0, FRAME_WIDTH, FRAME_HEIGHT);
+  context.clearRect(0, 0, canvas.width, canvas.height);
   if (!image) return;
 
   context.imageSmoothingEnabled = options.imageSmoothingEnabled ?? false;
@@ -26,7 +26,7 @@ export function drawSpriteFrame(
     FRAME_HEIGHT,
     0,
     0,
-    FRAME_WIDTH,
-    FRAME_HEIGHT,
+    canvas.width,
+    canvas.height,
   );
 }

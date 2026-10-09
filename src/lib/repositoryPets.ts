@@ -11,8 +11,8 @@ import renneManifestValue from '../../renne/pet.json';
 import renneManifestUrl from '../../renne/pet.json?url';
 import renneSpritesheetUrl from '../../renne/spritesheet.webp?url';
 
-import { createBundledPetPackage } from '../adapters/browser/petPackageLoader';
-import type { BundledPetPackageDescriptor } from '../adapters/browser/petPackageLoader';
+import { createBundledPetPackage } from './packageLoader';
+import type { BundledPetPackageDescriptor } from './packageLoader';
 
 export type RepositoryPetKey = 'renne' | 'blackmi' | 'miaomiao' | 'mango';
 

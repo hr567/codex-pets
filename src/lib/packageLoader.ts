@@ -1,6 +1,6 @@
-import { parsePetManifest } from '../../domain/pet/manifest';
-import type { PetManifest } from '../../domain/pet/manifest';
-import { assertAtlasDimensions } from '../../domain/pet/spriteFormat';
+import { parsePetManifest } from './manifest';
+import type { PetManifest } from './manifest';
+import { assertAtlasDimensions } from './sprite';
 
 const MAX_MANIFEST_BYTES = 256 * 1024;
 const MAX_SPRITESHEET_BYTES = 32 * 1024 * 1024;
